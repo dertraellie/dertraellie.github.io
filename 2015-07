@@ -1,0 +1,628 @@
+#hash((#s(event "monthly" #s(date 2015 7 1) "26")
+       .
+       #s(event/results
+          #s(event "monthly" #s(date 2015 7 1) "26")
+          (#s(stage
+              "Oberstein (L)"
+              #hasheq((name . "Oberstein (L)")
+                      (retry . #t)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Germany")
+                      (stage . "Oberstein (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Waldaufstieg (S)"
+              #hasheq((name . "Waldaufstieg (S)")
+                      (retry . #t)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Overcast")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Germany")
+                      (stage . "Waldaufstieg (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Kreuzungsring (S)"
+              #hasheq((name . "Kreuzungsring (S)")
+                      (retry . #t)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Rain")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Germany")
+                      (stage . "Kreuzungsring (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Frauenberg (L)"
+              #hasheq((name . "Frauenberg (L)")
+                      (retry . #t)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Germany")
+                      (stage . "Frauenberg (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Waldabstieg (S)"
+              #hasheq((name . "Waldabstieg (S)")
+                      (retry . #t)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Germany")
+                      (stage . "Waldabstieg (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Kreuzungsring Reverse (S)"
+              #hasheq((name . "Kreuzungsring Reverse (S)")
+                      (retry . #t)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Germany")
+                      (stage . "Kreuzungsring Reverse (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Perasma Platani (L)"
+              #hasheq((name . "Perasma Platani (L)")
+                      (retry . #t)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Sunny")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Greece")
+                      (stage . "Perasma Platani (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Ourea Spevsi (S)"
+              #hasheq((name . "Ourea Spevsi (S)")
+                      (retry . #t)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Sunset")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Greece")
+                      (stage . "Ourea Spevsi (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Abies Koiláda (S)"
+              #hasheq((name . "Abies Koiláda (S)")
+                      (retry . #t)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Greece")
+                      (stage . "Abies Koiláda (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Tsiristra Théa (L)"
+              #hasheq((name . "Tsiristra Théa (L)")
+                      (retry . #t)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Greece")
+                      (stage . "Tsiristra Théa (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Ypsona tou Dasos (S)"
+              #hasheq((name . "Ypsona tou Dasos (S)")
+                      (retry . #t)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Sunny")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Greece")
+                      (stage . "Ypsona tou Dasos (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Pedines Epidaxi (S)"
+              #hasheq((name . "Pedines Epidaxi (S)")
+                      (retry . #t)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Sunset")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Greece")
+                      (stage . "Pedines Epidaxi (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Pra d’Alart (L)"
+              #hasheq((name . "Pra d’Alart (L)")
+                      (retry . #t)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Sunny")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Monaco")
+                      (stage . "Pra d’Alart (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Gordolon - Courte montée (S)"
+              #hasheq((name . "Gordolon - Courte montée (S)")
+                      (retry . #t)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Afternoon")
+                      (weather . "Snow")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Monaco")
+                      (stage . "Gordolon - Courte montée (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Col de Turini sprint en Montée (S)"
+              #hasheq((name . "Col de Turini sprint en Montée (S)")
+                      (retry . #t)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Wet")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Monaco")
+                      (stage . "Col de Turini sprint en Montée (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Col de Turini Départ (L)"
+              #hasheq((name . "Col de Turini Départ (L)")
+                      (retry . #t)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Sunny")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Monaco")
+                      (stage . "Col de Turini Départ (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Col de Turini - Descente (S)"
+              #hasheq((name . "Col de Turini - Descente (S)")
+                      (retry . #t)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Afternoon")
+                      (weather . "Cloudy")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Monaco")
+                      (stage . "Col de Turini - Descente (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Col de Turini -  Sprint en descente (S)"
+              #hasheq((name . "Col de Turini -  Sprint en descente (S)")
+                      (retry . #t)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Mist")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Monaco")
+                      (stage . "Col de Turini -  Sprint en descente (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Ruschberg (L)"
+              #hasheq((name . "Ruschberg (L)")
+                      (retry . #t)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Germany")
+                      (stage . "Ruschberg (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Verbundsring Reverse (S)"
+              #hasheq((name . "Verbundsring Reverse (S)")
+                      (retry . #t)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Germany")
+                      (stage . "Verbundsring Reverse (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Flugzeugring Reverse (S)"
+              #hasheq((name . "Flugzeugring Reverse (S)")
+                      (retry . #t)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Germany")
+                      (stage . "Flugzeugring Reverse (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Hammerstein (L)"
+              #hasheq((name . "Hammerstein (L)")
+                      (retry . #t)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Overcast")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Germany")
+                      (stage . "Hammerstein (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Verbundsring (S)"
+              #hasheq((name . "Verbundsring (S)")
+                      (retry . #t)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Rain")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Germany")
+                      (stage . "Verbundsring (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Flugzeugring (S)"
+              #hasheq((name . "Flugzeugring (S)")
+                      (retry . #t)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #t)
+                      (location . "Germany")
+                      (stage . "Flugzeugring (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))))))

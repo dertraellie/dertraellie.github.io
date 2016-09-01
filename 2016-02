@@ -1,0 +1,1780 @@
+#hash((#s(event "weekly2" #s(date 2016 2 22) "28914")
+       .
+       #s(event/results
+          #s(event "weekly2" #s(date 2016 2 22) "28914")
+          (#s(stage
+              "Pra d’Alart (L)"
+              #hasheq((name . "Pra d’Alart (L)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Sunny")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2000s.jpg"))))
+                      (restart . #f)
+                      (location . "Monaco")
+                      (stage . "Pra d’Alart (L)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Subaru Impreza 2001"
+                  #s(racetime 0 7 7 166))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Citroën C4 Rally 2010"
+                  #s(racetime 0 7 28 499))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Col de Turini - Descente (S)"
+              #hasheq((name . "Col de Turini - Descente (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Sunny")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2000s.jpg"))))
+                      (restart . #f)
+                      (location . "Monaco")
+                      (stage . "Col de Turini - Descente (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Subaru Impreza 2001"
+                  #s(racetime 0 10 38 557))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Citroën C4 Rally 2010"
+                  #s(racetime 0 11 1 557))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Col de Turini -  Sprint en descente (S)"
+              #hasheq((name . "Col de Turini -  Sprint en descente (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Sunny")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2000s.jpg"))))
+                      (restart . #f)
+                      (location . "Monaco")
+                      (stage . "Col de Turini -  Sprint en descente (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Subaru Impreza 2001"
+                  #s(racetime 0 14 8 981))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Citroën C4 Rally 2010"
+                  #s(racetime 0 14 40 598))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Gordolon - Courte montée (S)"
+              #hasheq((name . "Gordolon - Courte montée (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Afternoon")
+                      (weather . "Snow")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2000s.jpg"))))
+                      (restart . #f)
+                      (location . "Monaco")
+                      (stage . "Gordolon - Courte montée (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Subaru Impreza 2001"
+                  #s(racetime 0 17 48 938))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Citroën C4 Rally 2010"
+                  #s(racetime 0 18 18 205))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Col de Turini sprint en Montée (S)"
+              #hasheq((name . "Col de Turini sprint en Montée (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Afternoon")
+                      (weather . "Snow")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2000s.jpg"))))
+                      (restart . #f)
+                      (location . "Monaco")
+                      (stage . "Col de Turini sprint en Montée (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Subaru Impreza 2001"
+                  #s(racetime 0 21 23 96))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Citroën C4 Rally 2010"
+                  #s(racetime 0 22 37 745))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Col de Turini -  Sprint en descente (S)"
+              #hasheq((name . "Col de Turini -  Sprint en descente (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Mist")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2000s.jpg"))))
+                      (restart . #f)
+                      (location . "Monaco")
+                      (stage . "Col de Turini -  Sprint en descente (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Subaru Impreza 2001"
+                  #s(racetime 0 24 58 537))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Citroën C4 Rally 2010"
+                  #s(racetime 0 26 18 852))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f))))))
+      (#s(event "weekly" #s(date 2016 2 29) "30431")
+       .
+       #s(event/results
+          #s(event "weekly" #s(date 2016 2 29) "30431")
+          (#s(stage
+              "Waldaufstieg (S)"
+              #hasheq((name . "Waldaufstieg (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Overcast")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_1970s.jpg"))))
+                      (restart . #f)
+                      (location . "Germany")
+                      (stage . "Waldaufstieg (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Lancia Stratos"
+                  #s(racetime 0 3 22 458))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Ford Escort Mk II"
+                  #s(racetime 0 3 22 758))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Kreuzungsring (S)"
+              #hasheq((name . "Kreuzungsring (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Rain")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_1970s.jpg"))))
+                      (restart . #f)
+                      (location . "Germany")
+                      (stage . "Kreuzungsring (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Lancia Stratos"
+                  #s(racetime 0 7 4 49))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Ford Escort Mk II"
+                  #s(racetime 0 7 9 748))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Frauenberg (L)"
+              #hasheq((name . "Frauenberg (L)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Rain")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_1970s.jpg"))))
+                      (restart . #f)
+                      (location . "Germany")
+                      (stage . "Frauenberg (L)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Lancia Stratos"
+                  #s(racetime 0 14 20 281))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Ford Escort Mk II"
+                  #s(racetime 0 14 30 630))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Oberstein (L)"
+              #hasheq((name . "Oberstein (L)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_1970s.jpg"))))
+                      (restart . #f)
+                      (location . "Germany")
+                      (stage . "Oberstein (L)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Lancia Stratos"
+                  #s(racetime 0 21 33 646))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Ford Escort Mk II"
+                  #s(racetime 0 21 28 146))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Waldabstieg (S)"
+              #hasheq((name . "Waldabstieg (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_1970s.jpg"))))
+                      (restart . #f)
+                      (location . "Germany")
+                      (stage . "Waldabstieg (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Lancia Stratos"
+                  #s(racetime 0 25 27 369))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Ford Escort Mk II"
+                  #s(racetime 0 25 24 719))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Kreuzungsring Reverse (S)"
+              #hasheq((name . "Kreuzungsring Reverse (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_1970s.jpg"))))
+                      (restart . #f)
+                      (location . "Germany")
+                      (stage . "Kreuzungsring Reverse (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Lancia Stratos"
+                  #s(racetime 0 28 51 977))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Ford Escort Mk II"
+                  #s(racetime 0 28 34 694))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f))))))
+      (#s(event "weekly" #s(date 2016 2 15) "27944")
+       .
+       #s(event/results
+          #s(event "weekly" #s(date 2016 2 15) "27944")
+          (#s(stage
+              "Iso Oksjärvi (S)"
+              #hasheq((name . "Iso Oksjärvi (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Overcast")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_rwd.jpg"))))
+                      (restart . #f)
+                      (location . "Finland")
+                      (stage . "Iso Oksjärvi (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Opel Manta 400"
+                  #s(racetime 0 4 4 290))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Opel Manta 400"
+                  #s(racetime 0 4 7 556))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Kotajärvi (S)"
+              #hasheq((name . "Kotajärvi (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Sunny")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_rwd.jpg"))))
+                      (restart . #f)
+                      (location . "Finland")
+                      (stage . "Kotajärvi (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Opel Manta 400"
+                  #s(racetime 0 8 33 395))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Opel Manta 400"
+                  #s(racetime 0 8 43 828))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Pitkäjärvi (L)"
+              #hasheq((name . "Pitkäjärvi (L)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Sunny")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_rwd.jpg"))))
+                      (restart . #f)
+                      (location . "Finland")
+                      (stage . "Pitkäjärvi (L)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Opel Manta 400"
+                  #s(racetime 0 16 55 808))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Opel Manta 400"
+                  #s(racetime 0 17 45 73))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Kakaristo (L)"
+              #hasheq((name . "Kakaristo (L)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Afternoon")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_rwd.jpg"))))
+                      (restart . #f)
+                      (location . "Finland")
+                      (stage . "Kakaristo (L)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Opel Manta 400"
+                  #s(racetime 0 25 18 821))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Opel Manta 400"
+                  #s(racetime 0 26 27 652))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Oksala (S)"
+              #hasheq((name . "Oksala (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_rwd.jpg"))))
+                      (restart . #f)
+                      (location . "Finland")
+                      (stage . "Oksala (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Opel Manta 400"
+                  #s(racetime 0 29 15 478))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Opel Manta 400"
+                  #s(racetime 0 30 46 491))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Järvenkylä (S)"
+              #hasheq((name . "Järvenkylä (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_rwd.jpg"))))
+                      (restart . #f)
+                      (location . "Finland")
+                      (stage . "Järvenkylä (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Opel Manta 400"
+                  #s(racetime 0 33 41 184))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Opel Manta 400"
+                  #s(racetime 0 35 28 763))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f))))))
+      (#s(event "weekly2" #s(date 2016 2 15) "27953")
+       .
+       #s(event/results
+          #s(event "weekly2" #s(date 2016 2 15) "27953")
+          (#s(stage
+              "Ourea Spevsi (S)"
+              #hasheq((name . "Ourea Spevsi (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_r_4.jpg"))))
+                      (restart . #f)
+                      (location . "Greece")
+                      (stage . "Ourea Spevsi (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Mitsubishi Lancer Evolution X"
+                  #s(racetime 0 15 0 0))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Mitsubishi Lancer Evolution X"
+                  #s(racetime 0 4 12 939))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Abies Koiláda (S)"
+              #hasheq((name . "Abies Koiláda (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_r_4.jpg"))))
+                      (restart . #f)
+                      (location . "Greece")
+                      (stage . "Abies Koiláda (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Mitsubishi Lancer Evolution X"
+                  #s(racetime 0 9 9 427))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Tsiristra Théa (L)"
+              #hasheq((name . "Tsiristra Théa (L)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_r_4.jpg"))))
+                      (restart . #f)
+                      (location . "Greece")
+                      (stage . "Tsiristra Théa (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Mitsubishi Lancer Evolution X"
+                  #s(racetime 0 16 49 43))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Perasma Platani (L)"
+              #hasheq((name . "Perasma Platani (L)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Sunny")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_r_4.jpg"))))
+                      (restart . #f)
+                      (location . "Greece")
+                      (stage . "Perasma Platani (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Mitsubishi Lancer Evolution X"
+                  #s(racetime 0 24 0 492))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Ypsona tou Dasos (S)"
+              #hasheq((name . "Ypsona tou Dasos (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Sunset")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_r_4.jpg"))))
+                      (restart . #f)
+                      (location . "Greece")
+                      (stage . "Ypsona tou Dasos (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Mitsubishi Lancer Evolution X"
+                  #s(racetime 0 27 42 33))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Pedines Epidaxi (S)"
+              #hasheq((name . "Pedines Epidaxi (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Sunset")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_r_4.jpg"))))
+                      (restart . #f)
+                      (location . "Greece")
+                      (stage . "Pedines Epidaxi (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Mitsubishi Lancer Evolution X"
+                  #s(racetime 0 32 3 839))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f))))))
+      (#s(event "monthly" #s(date 2016 2 1) "24688")
+       .
+       #s(event/results
+          #s(event "monthly" #s(date 2016 2 1) "24688")
+          (#s(stage
+              "Pra d’Alart (L)"
+              #hasheq((name . "Pra d’Alart (L)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Sunny")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Monaco")
+                      (stage . "Pra d’Alart (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Audi Sport quattro Rallye"
+                  #s(racetime 0 30 0 0))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Col de Turini - Descente (S)"
+              #hasheq((name . "Col de Turini - Descente (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Sunny")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Monaco")
+                      (stage . "Col de Turini - Descente (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Col de Turini -  Sprint en descente (S)"
+              #hasheq((name . "Col de Turini -  Sprint en descente (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Sunny")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Monaco")
+                      (stage . "Col de Turini -  Sprint en descente (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Gordolon - Courte montée (S)"
+              #hasheq((name . "Gordolon - Courte montée (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Afternoon")
+                      (weather . "Mist")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Monaco")
+                      (stage . "Gordolon - Courte montée (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Col de Turini sprint en Montée (S)"
+              #hasheq((name . "Col de Turini sprint en Montée (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Afternoon")
+                      (weather . "Snow")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Monaco")
+                      (stage . "Col de Turini sprint en Montée (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Col de Turini Départ (L)"
+              #hasheq((name . "Col de Turini Départ (L)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Afternoon")
+                      (weather . "Cloudy")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Monaco")
+                      (stage . "Col de Turini Départ (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Hammerstein (L)"
+              #hasheq((name . "Hammerstein (L)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Overcast")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Germany")
+                      (stage . "Hammerstein (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Verbundsring Reverse (S)"
+              #hasheq((name . "Verbundsring Reverse (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Rain")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Germany")
+                      (stage . "Verbundsring Reverse (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Flugzeugring Reverse (S)"
+              #hasheq((name . "Flugzeugring Reverse (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Rain")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Germany")
+                      (stage . "Flugzeugring Reverse (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Verbundsring (S)"
+              #hasheq((name . "Verbundsring (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Rain")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Germany")
+                      (stage . "Verbundsring (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Flugzeugring (S)"
+              #hasheq((name . "Flugzeugring (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Germany")
+                      (stage . "Flugzeugring (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Ruschberg (L)"
+              #hasheq((name . "Ruschberg (L)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Germany")
+                      (stage . "Ruschberg (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Perasma Platani (L)"
+              #hasheq((name . "Perasma Platani (L)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Greece")
+                      (stage . "Perasma Platani (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Ypsona tou Dasos (S)"
+              #hasheq((name . "Ypsona tou Dasos (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Greece")
+                      (stage . "Ypsona tou Dasos (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Pedines Epidaxi (S)"
+              #hasheq((name . "Pedines Epidaxi (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Greece")
+                      (stage . "Pedines Epidaxi (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Ourea Spevsi (S)"
+              #hasheq((name . "Ourea Spevsi (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Midday")
+                      (weather . "Sunny")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Greece")
+                      (stage . "Ourea Spevsi (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Abies Koiláda (S)"
+              #hasheq((name . "Abies Koiláda (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Sunset")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Greece")
+                      (stage . "Abies Koiláda (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Tsiristra Théa (L)"
+              #hasheq((name . "Tsiristra Théa (L)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Greece")
+                      (stage . "Tsiristra Théa (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Sweet Lamb (L)"
+              #hasheq((name . "Sweet Lamb (L)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Overcast")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Wales")
+                      (stage . "Sweet Lamb (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Pant Mawr Reverse (S)"
+              #hasheq((name . "Pant Mawr Reverse (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Rain")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Wales")
+                      (stage . "Pant Mawr Reverse (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Bidno Moorland Reverse (S)"
+              #hasheq((name . "Bidno Moorland Reverse (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Overcast")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Wales")
+                      (stage . "Bidno Moorland Reverse (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Pant Mawr (S)"
+              #hasheq((name . "Pant Mawr (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Overcast")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Wales")
+                      (stage . "Pant Mawr (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Bidno Moorland (S)"
+              #hasheq((name . "Bidno Moorland (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Overcast")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Wales")
+                      (stage . "Bidno Moorland (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Geufron Forest (L)"
+              #hasheq((name . "Geufron Forest (L)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Rain")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Wales")
+                      (stage . "Geufron Forest (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f))))))
+      (#s(event "weekly2" #s(date 2016 2 29) "30432")
+       .
+       #s(event/results
+          #s(event "weekly2" #s(date 2016 2 29) "30432")
+          (#s(stage
+              "Kailajärvi (S)"
+              #hasheq((name . "Kailajärvi (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Overcast")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #f)
+                      (location . "Finland")
+                      (stage . "Kailajärvi (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "MINI Countryman Rally Edition"
+                  #s(racetime 0 3 46 357))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Ford Fiesta RS Rally"
+                  #s(racetime 0 3 38 457))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Naarajärvi (S)"
+              #hasheq((name . "Naarajärvi (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Overcast")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #f)
+                      (location . "Finland")
+                      (stage . "Naarajärvi (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "MINI Countryman Rally Edition"
+                  #s(racetime 0 18 46 357))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Ford Fiesta RS Rally"
+                  #s(racetime 0 7 24 697))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Hämelahti (L)"
+              #hasheq((name . "Hämelahti (L)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Overcast")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #f)
+                      (location . "Finland")
+                      (stage . "Hämelahti (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Ford Fiesta RS Rally"
+                  #s(racetime 0 15 2 778))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Kontinjärvi (L)"
+              #hasheq((name . "Kontinjärvi (L)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Rain")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #f)
+                      (location . "Finland")
+                      (stage . "Kontinjärvi (L)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Ford Fiesta RS Rally"
+                  #s(racetime 0 22 22 993))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Paskuri (S)"
+              #hasheq((name . "Paskuri (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Afternoon")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #f)
+                      (location . "Finland")
+                      (stage . "Paskuri (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Ford Fiesta RS Rally"
+                  #s(racetime 0 26 12 567))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Jyrkysjärvi (S)"
+              #hasheq((name . "Jyrkysjärvi (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Night")
+                      (weather . "Clear")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (restart . #f)
+                      (location . "Finland")
+                      (stage . "Jyrkysjärvi (S)"))
+              (#s(race-result #s(player "steam" "Garoof" 63353) #f #f)
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Ford Fiesta RS Rally"
+                  #s(racetime 0 29 47 575))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f))))))
+      (#s(event "weekly" #s(date 2016 2 22) "28912")
+       .
+       #s(event/results
+          #s(event "weekly" #s(date 2016 2 22) "28912")
+          (#s(stage
+              "Pant Mawr (S)"
+              #hasheq((name . "Pant Mawr (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Overcast")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Wales")
+                      (stage . "Pant Mawr (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Peugeot 205 T16 Evo 2"
+                  #s(racetime 0 3 57 874))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Audi Sport quattro Rallye"
+                  #s(racetime 0 3 33 124))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Bidno Moorland (S)"
+              #hasheq((name . "Bidno Moorland (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Overcast")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Wales")
+                      (stage . "Bidno Moorland (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Peugeot 205 T16 Evo 2"
+                  #s(racetime 0 7 18 32))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Audi Sport quattro Rallye"
+                  #s(racetime 0 7 23 164))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Geufron Forest (L)"
+              #hasheq((name . "Geufron Forest (L)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Overcast")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Wales")
+                      (stage . "Geufron Forest (L)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Peugeot 205 T16 Evo 2"
+                  #s(racetime 0 15 0 513))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Audi Sport quattro Rallye"
+                  #s(racetime 0 14 31 146))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Sweet Lamb (L)"
+              #hasheq((name . "Sweet Lamb (L)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Rain")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Wales")
+                      (stage . "Sweet Lamb (L)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Peugeot 205 T16 Evo 2"
+                  #s(racetime 0 21 46 146))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Audi Sport quattro Rallye"
+                  #s(racetime 0 21 33 362))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Pant Mawr Reverse (S)"
+              #hasheq((name . "Pant Mawr Reverse (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #t)
+                      (checkpoint . #t)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Overcast")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Wales")
+                      (stage . "Pant Mawr Reverse (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Peugeot 205 T16 Evo 2"
+                  #s(racetime 0 25 8 771))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Audi Sport quattro Rallye"
+                  #s(racetime 0 24 55 403))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))
+           #s(stage
+              "Bidno Moorland Reverse (S)"
+              #hasheq((name . "Bidno Moorland Reverse (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (tuning . #f)
+                      (checkpoint . #f)
+                      (wager . #f)
+                      (time-of-day . "Morning")
+                      (weather . "Rain")
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (restart . #f)
+                      (location . "Wales")
+                      (stage . "Bidno Moorland Reverse (S)"))
+              (#s(race-result
+                  #s(player "steam" "Garoof" 63353)
+                  "Peugeot 205 T16 Evo 2"
+                  #s(racetime 0 29 5 994))
+               #s(race-result
+                  #s(player "steam" "Guggesokk" 14380)
+                  "Audi Sport quattro Rallye"
+                  #s(racetime 0 28 39 960))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)))))))

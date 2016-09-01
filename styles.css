@@ -1,0 +1,105 @@
+@media all {html {font-size: 24px;}}
+@media all and (max-width:1000px){html {font-size: 24px;}}
+@media all and (max-width:960px){html {font-size: 23px;}}
+@media all and (max-width:920px){html {font-size: 22px;}}
+@media all and (max-width:880px){html {font-size: 21px;}}
+@media all and (max-width:840px){html {font-size: 20px;}}
+@media all and (max-width:800px){html {font-size: 19px;}}
+@media all and (max-width:760px){html {font-size: 18px;}}
+@media all and (max-width:720px){html {font-size: 17px;}}
+@media all and (max-width:680px){html {font-size: 16px;}}
+@media all and (max-width:640px){html {font-size: 15px;}}
+@media all and (max-width:600px){html {font-size: 14px;}}
+@media all and (max-width:560px){html {font-size: 13px;}}
+@media all and (max-width:520px){html {font-size: 12px;}}
+
+
+
+html {
+    background-color: #FFFFFF;
+    overflow-y: scroll;
+}
+
+h1 {
+    font-variant: small-caps;
+    font-weight: normal;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+}
+
+h2 {
+    font-variant: small-caps;
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-left: 0rem;
+}
+
+h3 {
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0rem;
+    margin-top: 0.5rem;
+    margin-left: 0rem;
+}
+
+body > * {
+    text-rendering: optimizeLegibility;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    line-height: 1.25;
+    hyphens: manual;
+}
+
+th {
+    text-align: left;
+}
+
+th, td {
+    padding: 0rem 0.5rem 0rem 0.2rem;
+    white-space: nowrap;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+td.color-Garoof {
+    background-color: #99ff99; 
+}
+
+td.color-Gnorrf {
+    background-color: #99ff99; 
+}
+
+td.color-Guggesokk {
+    background-color: #ff9933;
+}
+
+td.color-frodegill {
+    background-color: #66ffff;
+}
+
+td.color-Eitrir {
+    background-color: #cc0066;
+}
+
+caption {
+    text-align:left;
+}
+
+.scrollish {
+    overflow-x:auto;
+}
+
+.result {
+    margin-bottom: 1rem;
+}
