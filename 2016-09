@@ -33,6 +33,39 @@
                   #s(player "playstationnetwork" "Eitrir" 518640)
                   #f
                   #f))))))
+      (#s(event "daily2" #s(date 2016 9 4) "138141")
+       .
+       #s(event/results
+          #s(event "daily2" #s(date 2016 9 4) "138141")
+          (#s(stage
+              "Ruschberg (L)"
+              #hasheq((engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (restart . #f)
+                      (restriction . #hasheq((Vehicle . ("Renault 5 Turbo"))))
+                      (retry . #f)
+                      (service . #t)
+                      (time-of-day . "Night")
+                      (tuning . #f)
+                      (wager . #f)
+                      (weather . "Clear")
+                      (name . "Ruschberg (L)")
+                      (stage . "Ruschberg (L)")
+                      (location . "Germany")
+                      (checkpoint . #f))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Renault 5 Turbo"
+                  #s(racetime 0 7 27 32))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Renault 5 Turbo"
+                  #s(racetime 0 7 5 582))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f))))))
       (#s(event "daily" #s(date 2016 9 1) "135598")
        .
        #s(event/results
@@ -130,6 +163,39 @@
                   #s(player "playstationnetwork" "frodegill" 283125)
                   "Lancia Stratos"
                   #s(racetime 0 3 26 425))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f))))))
+      (#s(event "daily" #s(date 2016 9 4) "138133")
+       .
+       #s(event/results
+          #s(event "daily" #s(date 2016 9 4) "138133")
+          (#s(stage
+              "Lydden Hill - Full Circuit"
+              #hasheq((engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (restart . #f)
+                      (restriction . #hasheq((Vehicle . ("Peugeot 208 WRX"))))
+                      (retry . #f)
+                      (service . #t)
+                      (time-of-day . "Afternoon")
+                      (tuning . #f)
+                      (wager . #f)
+                      (weather . "Rain")
+                      (name . "Lydden Hill - Full Circuit")
+                      (stage . "Lydden Hill - Full Circuit")
+                      (location . "United Kingdom")
+                      (checkpoint . #f))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Peugeot 208 WRX"
+                  #s(racetime 0 2 59 213))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Peugeot 208 WRX"
+                  #s(racetime 0 3 6 869))
                #s(race-result
                   #s(player "playstationnetwork" "Eitrir" 518640)
                   #f
