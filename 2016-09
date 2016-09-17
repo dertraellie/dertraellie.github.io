@@ -754,6 +754,39 @@
                   #s(player "playstationnetwork" "Eitrir" 518640)
                   #f
                   #f))))))
+      (#s(event "daily" #s(date 2016 9 16) "140375")
+       .
+       #s(event/results
+          #s(event "daily" #s(date 2016 9 16) "140375")
+          (#s(stage
+              "Paskuri (S)"
+              #hasheq((wager . #f)
+                      (location . "Finland")
+                      (only-owned-vehicles . #f)
+                      (retry . #f)
+                      (tuning . #f)
+                      (stage . "Paskuri (S)")
+                      (time-of-day . "Midday")
+                      (checkpoint . #f)
+                      (name . "Paskuri (S)")
+                      (restriction . #hasheq((Vehicle . ("Lancia Delta S4"))))
+                      (engineers . #t)
+                      (service . #t)
+                      (restart . #f)
+                      (weather . "Sunny"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Lancia Delta S4"
+                  #s(racetime 0 4 11 923))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Lancia Delta S4"
+                  #s(racetime 0 3 22 991))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f))))))
       (#s(event "daily" #s(date 2016 9 3) "135600")
        .
        #s(event/results
@@ -1131,6 +1164,39 @@
                   #s(player "playstationnetwork" "frodegill" 283125)
                   "Lancia 037 Evo 2"
                   #s(racetime 0 6 57 233))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f))))))
+      (#s(event "daily2" #s(date 2016 9 16) "140383")
+       .
+       #s(event/results
+          #s(event "daily2" #s(date 2016 9 16) "140383")
+          (#s(stage
+              "Stor-jangen Sprint Reverse (S)"
+              #hasheq((wager . #f)
+                      (location . "Sweden")
+                      (only-owned-vehicles . #f)
+                      (retry . #f)
+                      (tuning . #f)
+                      (stage . "Stor-jangen Sprint Reverse (S)")
+                      (time-of-day . "Night")
+                      (checkpoint . #f)
+                      (name . "Stor-jangen Sprint Reverse (S)")
+                      (restriction . #hasheq((Vehicle . ("Lancia Stratos"))))
+                      (engineers . #t)
+                      (service . #t)
+                      (restart . #f)
+                      (weather . "Mist"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Lancia Stratos"
+                  #s(racetime 0 5 37 686))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Lancia Stratos"
+                  #s(racetime 0 4 4 373))
                #s(race-result
                   #s(player "playstationnetwork" "Eitrir" 518640)
                   #f
