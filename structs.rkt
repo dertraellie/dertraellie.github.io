@@ -1,5 +1,9 @@
 #lang racket
-(provide (struct-out event)
+(provide steam
+         ps4
+         xbone
+         platform-telemetry
+         (struct-out event)
          (struct-out date)
          (struct-out event/results)
          (struct-out stage)
@@ -17,6 +21,16 @@
          millis->time
          time->millis
          time-diff)
+
+(define steam "steam")
+(define ps4 "playstationnetwork")
+(define xbone "microsoftlive")
+
+(define (platform-telemetry s)
+  (match s
+    ["steam" 3]
+    ["playstationnetwork" 2]
+    ["microsoftlive" 1]))
 
 (require racket/date)
 

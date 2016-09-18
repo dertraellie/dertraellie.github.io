@@ -53,11 +53,6 @@
        (when almost-res
          (error 'wrong-player "found ~a" almost-res)))
      res]))
-                
-
-(define steam "steam")
-(define ps4 "playstationnetwork")
-(define xbone "microsoftlive")
 
 (define (get-event/player e-id p stage-id)
   (match p

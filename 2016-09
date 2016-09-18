@@ -1135,6 +1135,41 @@
                   #s(player "playstationnetwork" "Eitrir" 518640)
                   #f
                   #f))))))
+      (#s(event "daily" #s(date 2016 9 17) "140376")
+       .
+       #s(event/results
+          #s(event "daily" #s(date 2016 9 17) "140376")
+          (#s(stage
+              "Frauenberg (L)"
+              #hasheq((wager . #f)
+                      (location . "Germany")
+                      (only-owned-vehicles . #f)
+                      (retry . #f)
+                      (tuning . #f)
+                      (stage . "Frauenberg (L)")
+                      (time-of-day . "Morning")
+                      (checkpoint . #f)
+                      (name . "Frauenberg (L)")
+                      (restriction
+                       .
+                       #hasheq((Vehicle . ("Peugeot 205 T16 Evo 2"))))
+                      (engineers . #t)
+                      (service . #t)
+                      (restart . #f)
+                      (weather . "Clear"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Peugeot 205 T16 Evo 2"
+                  #s(racetime 0 8 9 748))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Peugeot 205 T16 Evo 2"
+                  #s(racetime 0 6 22 901))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f))))))
       (#s(event "daily2" #s(date 2016 9 11) "140378")
        .
        #s(event/results
@@ -1541,6 +1576,41 @@
                   #s(player "playstationnetwork" "frodegill" 283125)
                   "Opel Kadett GT/E 16v"
                   #s(racetime 0 7 5 482))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f))))))
+      (#s(event "daily2" #s(date 2016 9 17) "140384")
+       .
+       #s(event/results
+          #s(event "daily2" #s(date 2016 9 17) "140384")
+          (#s(stage
+              "Geufron Forest (L)"
+              #hasheq((wager . #f)
+                      (location . "Wales")
+                      (only-owned-vehicles . #f)
+                      (retry . #f)
+                      (tuning . #f)
+                      (stage . "Geufron Forest (L)")
+                      (time-of-day . "Morning")
+                      (checkpoint . #f)
+                      (name . "Geufron Forest (L)")
+                      (restriction
+                       .
+                       #hasheq((Vehicle . ("Seat Ibiza Kitcar"))))
+                      (engineers . #t)
+                      (service . #t)
+                      (restart . #f)
+                      (weather . "Rain"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Seat Ibiza Kitcar"
+                  #s(racetime 0 7 10 482))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Seat Ibiza Kitcar"
+                  #s(racetime 0 7 3 550))
                #s(race-result
                   #s(player "playstationnetwork" "Eitrir" 518640)
                   #f

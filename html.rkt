@@ -12,16 +12,16 @@
        (div ((class "scrollish"))
            (table ()
                   ,@(stages->row stages)
-                  ,@(stages->result-rows stages))))]))
+                  ,@(stages->result-rows stages e-id))))]))
 
-(define (stages->result-rows stages)
+(define (stages->result-rows stages e-id)
     (define p-timess (map (stages->p-times stages) (stream->list (in-range (length (stage-results (car stages)))))))
     
     (append*
       (for/list ([p-times (sort p-timess result-better)])
         (match p-times
-          [(list p-name p-vehicle p-times ...)
-           (define all-times (map cddr p-timess))
+          [(list p-name p-platform p-id p-vehicle p-times ...)
+           (define all-times (map cddddr p-timess))
            
            (define times-res
              
@@ -40,10 +40,15 @@
                    (append (tds p-name p-stagetime best-stagetime #f)
                            (tds p-name p-total best-total #f)))))
            
+           (define url (format "https://www.dirtgame.com/uk/telemetry/0/~a/~a/1/~a"
+                               (platform-telemetry p-platform)
+                               e-id
+                               p-id))
+           
            `((tr ()
-                (td ((class ,(~a "color-" p-name))) ,p-name)
-                (td ((class ,(~a "color-" p-name))) ,(or p-vehicle ""))
-                ,@(append* times-res)))]))))
+                 (td ((class ,(~a "color-" p-name))) (a ((href ,url)) ,p-name))
+                 (td ((class ,(~a "color-" p-name))) ,(or p-vehicle ""))
+                 ,@(append* times-res)))]))))
 
 (define (tds p-name t best double-col?)
   (define diff (time-diff t best))
@@ -78,7 +83,7 @@
                           (cdr stages))))))
 
 (define ((stages->p-times stages) p-index)
-    (match-define (race-result (player _ p-name _) p-vehicle _)
+    (match-define (race-result (player p-platform p-name p-id) p-vehicle _)
       (list-ref (stage-results (car stages)) p-index))
     
     (define (foo s)
@@ -88,6 +93,8 @@
     (define totals (map foo stages))
     (define prevs (cons (racetime 0 0 0 0) (take totals (- (length totals) 1))))
     (list* p-name
+           p-platform
+           p-id
            p-vehicle
            (map (λ (total prev)
                   (list (time-diff total prev) total))
@@ -95,8 +102,8 @@
                 prevs)))
 (define (result-better a b)
       (match* (a b)
-        [((list _ _ as ...) (list _ _ bs ...))
-         (match* ((memf (compose cadr identity) (reverse as)) (memf (compose cadr identity) (reverse bs)))
+        [((list _ _ _ _ as ...) (list _ _ _ _ bs ...))
+         (match* ((memf cadr (reverse as)) (memf cadr (reverse bs)))
            [(#f #f) #f]
            [(#f _) #f]
            [(_ #f) #t]
