@@ -12,9 +12,9 @@
        (div ((class "scrollish"))
            (table ()
                   ,@(stages->row stages)
-                  ,@(stages->result-rows stages e-id))))]))
+                  ,@(stages->result-rows stages e-id e-cat))))]))
 
-(define (stages->result-rows stages e-id)
+(define (stages->result-rows stages e-id e-cat)
     (define p-timess (map (stages->p-times stages) (stream->list (in-range (length (stage-results (car stages)))))))
     
     (append*
@@ -39,14 +39,19 @@
                    (tds p-name p-stagetime best-stagetime #t)
                    (append (tds p-name p-stagetime best-stagetime #f)
                            (tds p-name p-total best-total #f)))))
-           
-           (define url (format "https://www.dirtgame.com/uk/telemetry/0/~a/~a/1/~a"
-                               (platform-telemetry p-platform)
-                               e-id
-                               p-id))
+
+           (define e-cat-tel (event-cat-telemetry e-cat))
+           (define url (and e-cat-tel
+                            (format "https://www.dirtgame.com/uk/telemetry/~a/~a/~a/1/~a"
+                                    e-cat-tel
+                                    (platform-telemetry p-platform)
+                                    e-id
+                                    p-id)))
            
            `((tr ()
-                 (td ((class ,(~a "color-" p-name))) (a ((href ,url)) ,p-name))
+                 (td ((class ,(~a "color-" p-name))) ,(if url
+                                                         `(a ((href ,url)) ,p-name)
+                                                         p-name))
                  (td ((class ,(~a "color-" p-name))) ,(or p-vehicle ""))
                  ,@(append* times-res)))]))))
 

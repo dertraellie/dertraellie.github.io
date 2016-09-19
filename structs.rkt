@@ -3,6 +3,7 @@
          ps4
          xbone
          platform-telemetry
+         event-cat-telemetry
          (struct-out event)
          (struct-out date)
          (struct-out event/results)
@@ -31,6 +32,12 @@
     ["steam" 3]
     ["playstationnetwork" 2]
     ["microsoftlive" 1]))
+
+(define (event-cat-telemetry s)
+  (match s
+    ["daily" 0]
+    ["daily2" 5]
+    [_ #f]))
 
 (require racket/date)
 
