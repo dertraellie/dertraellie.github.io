@@ -4,22 +4,22 @@
           #s(event "daily2" #s(date 2016 9 12) "140379")
           (#s(stage
               "Waldaufstieg (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Clear")
-                      (time-of-day . "Midday")
                       (name . "Waldaufstieg (S)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Waldaufstieg (S)")
+                      (time-of-day . "Midday")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Sierra Cosworth RS500"))))
-                      (wager . #f)
-                      (stage . "Waldaufstieg (S)")
-                      (location . "Germany")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Germany"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -39,22 +39,22 @@
           #s(event "daily" #s(date 2016 9 14) "140373")
           (#s(stage
               "Jyrkysjärvi (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Clear")
-                      (time-of-day . "Night")
                       (name . "Jyrkysjärvi (S)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Jyrkysjärvi (S)")
+                      (time-of-day . "Night")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Focus RS Rally 2001"))))
-                      (wager . #f)
-                      (stage . "Jyrkysjärvi (S)")
-                      (location . "Finland")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Finland"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -74,22 +74,22 @@
           #s(event "daily2" #s(date 2016 9 21) "142360")
           (#s(stage
               "Fferm Wynt (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Overcast")
-                      (time-of-day . "Morning")
                       (name . "Fferm Wynt (S)")
+                      (weather . "Overcast")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Fferm Wynt (S)")
+                      (time-of-day . "Morning")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("BMW E30 M3 Evo Rally"))))
-                      (wager . #f)
-                      (stage . "Fferm Wynt (S)")
-                      (location . "Wales")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Wales"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -109,20 +109,20 @@
           #s(event "daily2" #s(date 2016 9 10) "138147")
           (#s(stage
               "Route de Turini (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Snow")
-                      (time-of-day . "Night")
                       (name . "Route de Turini (L)")
-                      (checkpoint . #f)
-                      (restriction . #hasheq((Vehicle . ("Ford RS200"))))
-                      (wager . #f)
-                      (stage . "Route de Turini (L)")
-                      (location . "Monaco")
+                      (weather . "Snow")
                       (engineers . #t)
                       (only-owned-vehicles . #t)
+                      (stage . "Route de Turini (L)")
+                      (time-of-day . "Night")
                       (service . #t)
-                      (retry . #f))
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction . #hasheq((Vehicle . ("Ford RS200"))))
+                      (location . "Monaco"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -142,22 +142,22 @@
           #s(event "daily2" #s(date 2016 9 20) "142359")
           (#s(stage
               "Elgsjön (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Mist")
-                      (time-of-day . "Afternoon")
                       (name . "Elgsjön (S)")
+                      (weather . "Mist")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Elgsjön (S)")
+                      (time-of-day . "Afternoon")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Subaru Impreza WRX STI 2011"))))
-                      (wager . #f)
-                      (stage . "Elgsjön (S)")
-                      (location . "Sweden")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -177,24 +177,24 @@
           #s(event "weekly" #s(date 2016 9 12) "140377")
           (#s(stage
               "Perasma Platani (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Clear")
-                      (time-of-day . "Night")
                       (name . "Perasma Platani (L)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Perasma Platani (L)")
+                      (time-of-day . "Night")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
-                      (wager . #f)
-                      (stage . "Perasma Platani (L)")
-                      (location . "Greece")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Greece"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -210,24 +210,24 @@
                   #s(racetime 0 30 0 0))))
            #s(stage
               "Ypsona tou Dasos (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Clear")
-                      (time-of-day . "Night")
                       (name . "Ypsona tou Dasos (S)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Ypsona tou Dasos (S)")
+                      (time-of-day . "Night")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
-                      (wager . #f)
-                      (stage . "Ypsona tou Dasos (S)")
-                      (location . "Greece")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Greece"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -243,24 +243,24 @@
                   #f)))
            #s(stage
               "Pedines Epidaxi (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Clear")
-                      (time-of-day . "Morning")
                       (name . "Pedines Epidaxi (S)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Pedines Epidaxi (S)")
+                      (time-of-day . "Morning")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
-                      (wager . #f)
-                      (stage . "Pedines Epidaxi (S)")
-                      (location . "Greece")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Greece"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -276,24 +276,24 @@
                   #f)))
            #s(stage
               "Ourea Spevsi (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Sunny")
-                      (time-of-day . "Midday")
                       (name . "Ourea Spevsi (S)")
+                      (weather . "Sunny")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Ourea Spevsi (S)")
+                      (time-of-day . "Midday")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
-                      (wager . #f)
-                      (stage . "Ourea Spevsi (S)")
-                      (location . "Greece")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Greece"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -309,24 +309,24 @@
                   #f)))
            #s(stage
               "Abies Koiláda (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Sunny")
-                      (time-of-day . "Midday")
                       (name . "Abies Koiláda (S)")
+                      (weather . "Sunny")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Abies Koiláda (S)")
+                      (time-of-day . "Midday")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
-                      (wager . #f)
-                      (stage . "Abies Koiláda (S)")
-                      (location . "Greece")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Greece"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -342,24 +342,24 @@
                   #f)))
            #s(stage
               "Tsiristra Théa (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Clear")
-                      (time-of-day . "Sunset")
                       (name . "Tsiristra Théa (L)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Tsiristra Théa (L)")
+                      (time-of-day . "Sunset")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
-                      (wager . #f)
-                      (stage . "Tsiristra Théa (L)")
-                      (location . "Greece")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Greece"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -379,22 +379,22 @@
           #s(event "daily2" #s(date 2016 9 7) "138144")
           (#s(stage
               "Verbundsring Reverse (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Rain")
-                      (time-of-day . "Morning")
                       (name . "Verbundsring Reverse (S)")
+                      (weather . "Rain")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Verbundsring Reverse (S)")
+                      (time-of-day . "Morning")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Lancia Delta HF Integrale"))))
-                      (wager . #f)
-                      (stage . "Verbundsring Reverse (S)")
-                      (location . "Germany")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Germany"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -414,24 +414,24 @@
           #s(event "weekly2" #s(date 2016 9 5) "138148")
           (#s(stage
               "Col de Turini Départ (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Snow")
-                      (time-of-day . "Afternoon")
                       (name . "Col de Turini Départ (L)")
+                      (weather . "Snow")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Col de Turini Départ (L)")
+                      (time-of-day . "Afternoon")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
-                      (wager . #f)
-                      (stage . "Col de Turini Départ (L)")
-                      (location . "Monaco")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Monaco"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -447,24 +447,24 @@
                   #f)))
            #s(stage
               "Route de Turini (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Snow")
-                      (time-of-day . "Afternoon")
                       (name . "Route de Turini (L)")
+                      (weather . "Snow")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Route de Turini (L)")
+                      (time-of-day . "Afternoon")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
-                      (wager . #f)
-                      (stage . "Route de Turini (L)")
-                      (location . "Monaco")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Monaco"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -480,24 +480,24 @@
                   #f)))
            #s(stage
               "Geufron Forest (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Cloudy")
-                      (time-of-day . "Midday")
                       (name . "Geufron Forest (L)")
+                      (weather . "Cloudy")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Geufron Forest (L)")
+                      (time-of-day . "Midday")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
-                      (wager . #f)
-                      (stage . "Geufron Forest (L)")
-                      (location . "Wales")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Wales"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -513,24 +513,24 @@
                   #f)))
            #s(stage
               "Bronfelen (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Cloudy")
-                      (time-of-day . "Midday")
                       (name . "Bronfelen (L)")
+                      (weather . "Cloudy")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Bronfelen (L)")
+                      (time-of-day . "Midday")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
-                      (wager . #f)
-                      (stage . "Bronfelen (L)")
-                      (location . "Wales")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Wales"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -546,24 +546,24 @@
                   #f)))
            #s(stage
               "Hämelahti (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Clear")
-                      (time-of-day . "Afternoon")
                       (name . "Hämelahti (L)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Hämelahti (L)")
+                      (time-of-day . "Afternoon")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
-                      (wager . #f)
-                      (stage . "Hämelahti (L)")
-                      (location . "Finland")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Finland"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -579,24 +579,24 @@
                   #f)))
            #s(stage
               "Pitkäjärvi (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Clear")
-                      (time-of-day . "Night")
                       (name . "Pitkäjärvi (L)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Pitkäjärvi (L)")
+                      (time-of-day . "Night")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
-                      (wager . #f)
-                      (stage . "Pitkäjärvi (L)")
-                      (location . "Finland")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Finland"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -616,20 +616,20 @@
           #s(event "daily2" #s(date 2016 9 16) "140383")
           (#s(stage
               "Stor-jangen Sprint Reverse (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Mist")
-                      (time-of-day . "Night")
                       (name . "Stor-jangen Sprint Reverse (S)")
-                      (checkpoint . #f)
-                      (restriction . #hasheq((Vehicle . ("Lancia Stratos"))))
-                      (wager . #f)
-                      (stage . "Stor-jangen Sprint Reverse (S)")
-                      (location . "Sweden")
+                      (weather . "Mist")
                       (engineers . #t)
                       (only-owned-vehicles . #f)
+                      (stage . "Stor-jangen Sprint Reverse (S)")
+                      (time-of-day . "Night")
                       (service . #t)
-                      (retry . #f))
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction . #hasheq((Vehicle . ("Lancia Stratos"))))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -649,22 +649,22 @@
           #s(event "daily" #s(date 2016 9 23) "142354")
           (#s(stage
               "Pikes Peak (Gravel) - Full Course (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Overcast")
-                      (time-of-day . "Afternoon")
                       (name . "Pikes Peak (Gravel) - Full Course (L)")
+                      (weather . "Overcast")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Pikes Peak (Gravel) - Full Course (L)")
+                      (time-of-day . "Afternoon")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Peugeot 405 T16 Pikes Peak"))))
-                      (wager . #f)
-                      (stage . "Pikes Peak (Gravel) - Full Course (L)")
-                      (location . "USA")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "USA"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -684,22 +684,22 @@
           #s(event "daily2" #s(date 2016 9 8) "138145")
           (#s(stage
               "Älgsjön (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Sunny")
-                      (time-of-day . "Midday")
                       (name . "Älgsjön (S)")
+                      (weather . "Sunny")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Älgsjön (S)")
+                      (time-of-day . "Midday")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("BMW E30 M3 Evo Rally"))))
-                      (wager . #f)
-                      (stage . "Älgsjön (S)")
-                      (location . "Sweden")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -719,22 +719,22 @@
           #s(event "daily2" #s(date 2016 9 25) "143999")
           (#s(stage
               "Hamra (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Cloudy")
-                      (time-of-day . "Afternoon")
                       (name . "Hamra (L)")
+                      (weather . "Cloudy")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Hamra (L)")
+                      (time-of-day . "Afternoon")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Citroën C4 Rally 2010"))))
-                      (wager . #f)
-                      (stage . "Hamra (L)")
-                      (location . "Sweden")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -754,22 +754,22 @@
           #s(event "daily" #s(date 2016 9 15) "140374")
           (#s(stage
               "Kreuzungsring (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Clear")
-                      (time-of-day . "Morning")
                       (name . "Kreuzungsring (S)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Kreuzungsring (S)")
+                      (time-of-day . "Morning")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Volkswagen Polo Rally"))))
-                      (wager . #f)
-                      (stage . "Kreuzungsring (S)")
-                      (location . "Germany")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Germany"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -789,22 +789,22 @@
           #s(event "daily2" #s(date 2016 9 18) "142357")
           (#s(stage
               "Ransbysäter (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Overcast")
-                      (time-of-day . "Night")
                       (name . "Ransbysäter (L)")
+                      (weather . "Overcast")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Ransbysäter (L)")
+                      (time-of-day . "Night")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Mitsubishi Lancer Evolution X"))))
-                      (wager . #f)
-                      (stage . "Ransbysäter (L)")
-                      (location . "Sweden")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -824,20 +824,20 @@
           #s(event "daily2" #s(date 2016 9 11) "140378")
           (#s(stage
               "River Severn Valley (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Rain")
-                      (time-of-day . "Morning")
                       (name . "River Severn Valley (L)")
-                      (checkpoint . #f)
-                      (restriction . #hasheq((Vehicle . ("Lancia 037 Evo 2"))))
-                      (wager . #f)
-                      (stage . "River Severn Valley (L)")
-                      (location . "Wales")
+                      (weather . "Rain")
                       (engineers . #t)
                       (only-owned-vehicles . #f)
+                      (stage . "River Severn Valley (L)")
+                      (time-of-day . "Morning")
                       (service . #t)
-                      (retry . #f))
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction . #hasheq((Vehicle . ("Lancia 037 Evo 2"))))
+                      (location . "Wales"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -857,20 +857,20 @@
           #s(event "daily2" #s(date 2016 9 5) "138142")
           (#s(stage
               "Pant Mawr Reverse (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Overcast")
-                      (time-of-day . "Morning")
                       (name . "Pant Mawr Reverse (S)")
-                      (checkpoint . #f)
-                      (restriction . #hasheq((Vehicle . ("Opel Manta 400"))))
-                      (wager . #f)
-                      (stage . "Pant Mawr Reverse (S)")
-                      (location . "Wales")
+                      (weather . "Overcast")
                       (engineers . #t)
                       (only-owned-vehicles . #f)
+                      (stage . "Pant Mawr Reverse (S)")
+                      (time-of-day . "Morning")
                       (service . #t)
-                      (retry . #f))
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction . #hasheq((Vehicle . ("Opel Manta 400"))))
+                      (location . "Wales"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -890,22 +890,22 @@
           #s(event "daily" #s(date 2016 9 3) "135600")
           (#s(stage
               "Norraskoga (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Snow")
-                      (time-of-day . "Night")
                       (name . "Norraskoga (L)")
+                      (weather . "Snow")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Norraskoga (L)")
+                      (time-of-day . "Night")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Fiesta RS Rally"))))
-                      (wager . #f)
-                      (stage . "Norraskoga (L)")
-                      (location . "Sweden")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -925,24 +925,24 @@
           #s(event "weekly" #s(date 2016 9 5) "138140")
           (#s(stage
               "Ransbysäter (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Sunny")
-                      (time-of-day . "Midday")
                       (name . "Ransbysäter (L)")
+                      (weather . "Sunny")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Ransbysäter (L)")
+                      (time-of-day . "Midday")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1970s.jpg"))))
-                      (wager . #f)
-                      (stage . "Ransbysäter (L)")
-                      (location . "Sweden")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -958,24 +958,24 @@
                   #f)))
            #s(stage
               "Skogsrallyt (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Sunny")
-                      (time-of-day . "Midday")
                       (name . "Skogsrallyt (S)")
+                      (weather . "Sunny")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Skogsrallyt (S)")
+                      (time-of-day . "Midday")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1970s.jpg"))))
-                      (wager . #f)
-                      (stage . "Skogsrallyt (S)")
-                      (location . "Sweden")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -991,24 +991,24 @@
                   #f)))
            #s(stage
               "Stor-jangen Sprint Reverse (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Mist")
-                      (time-of-day . "Afternoon")
                       (name . "Stor-jangen Sprint Reverse (S)")
+                      (weather . "Mist")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Stor-jangen Sprint Reverse (S)")
+                      (time-of-day . "Afternoon")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1970s.jpg"))))
-                      (wager . #f)
-                      (stage . "Stor-jangen Sprint Reverse (S)")
-                      (location . "Sweden")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1024,24 +1024,24 @@
                   #f)))
            #s(stage
               "Älgsjön Sprint (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Mist")
-                      (time-of-day . "Afternoon")
                       (name . "Älgsjön Sprint (S)")
+                      (weather . "Mist")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Älgsjön Sprint (S)")
+                      (time-of-day . "Afternoon")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1970s.jpg"))))
-                      (wager . #f)
-                      (stage . "Älgsjön Sprint (S)")
-                      (location . "Sweden")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1057,24 +1057,24 @@
                   #f)))
            #s(stage
               "Stor-jangen Sprint (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Mist")
-                      (time-of-day . "Afternoon")
                       (name . "Stor-jangen Sprint (S)")
+                      (weather . "Mist")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Stor-jangen Sprint (S)")
+                      (time-of-day . "Afternoon")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1970s.jpg"))))
-                      (wager . #f)
-                      (stage . "Stor-jangen Sprint (S)")
-                      (location . "Sweden")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1090,24 +1090,24 @@
                   #f)))
            #s(stage
               "Norraskoga (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Cloudy")
-                      (time-of-day . "Afternoon")
                       (name . "Norraskoga (L)")
+                      (weather . "Cloudy")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Norraskoga (L)")
+                      (time-of-day . "Afternoon")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1970s.jpg"))))
-                      (wager . #f)
-                      (stage . "Norraskoga (L)")
-                      (location . "Sweden")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1127,20 +1127,20 @@
           #s(event "daily" #s(date 2016 9 16) "140375")
           (#s(stage
               "Paskuri (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Sunny")
-                      (time-of-day . "Midday")
                       (name . "Paskuri (S)")
-                      (checkpoint . #f)
-                      (restriction . #hasheq((Vehicle . ("Lancia Delta S4"))))
-                      (wager . #f)
-                      (stage . "Paskuri (S)")
-                      (location . "Finland")
+                      (weather . "Sunny")
                       (engineers . #t)
                       (only-owned-vehicles . #f)
+                      (stage . "Paskuri (S)")
+                      (time-of-day . "Midday")
                       (service . #t)
-                      (retry . #f))
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction . #hasheq((Vehicle . ("Lancia Delta S4"))))
+                      (location . "Finland"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1160,24 +1160,24 @@
           #s(event "weekly2" #s(date 2016 9 12) "140385")
           (#s(stage
               "Kailajärvi (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Rain")
-                      (time-of-day . "Morning")
                       (name . "Kailajärvi (S)")
+                      (weather . "Rain")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Kailajärvi (S)")
+                      (time-of-day . "Morning")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1980s_rwd.jpg"))))
-                      (wager . #f)
-                      (stage . "Kailajärvi (S)")
-                      (location . "Finland")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Finland"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1193,24 +1193,24 @@
                   #f)))
            #s(stage
               "Naarajärvi (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Rain")
-                      (time-of-day . "Morning")
                       (name . "Naarajärvi (S)")
+                      (weather . "Rain")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Naarajärvi (S)")
+                      (time-of-day . "Morning")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1980s_rwd.jpg"))))
-                      (wager . #f)
-                      (stage . "Naarajärvi (S)")
-                      (location . "Finland")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Finland"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1226,24 +1226,24 @@
                   #f)))
            #s(stage
               "Hämelahti (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Clear")
-                      (time-of-day . "Afternoon")
                       (name . "Hämelahti (L)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Hämelahti (L)")
+                      (time-of-day . "Afternoon")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1980s_rwd.jpg"))))
-                      (wager . #f)
-                      (stage . "Hämelahti (L)")
-                      (location . "Finland")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Finland"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1259,24 +1259,24 @@
                   #f)))
            #s(stage
               "Kontinjärvi (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Clear")
-                      (time-of-day . "Afternoon")
                       (name . "Kontinjärvi (L)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Kontinjärvi (L)")
+                      (time-of-day . "Afternoon")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1980s_rwd.jpg"))))
-                      (wager . #f)
-                      (stage . "Kontinjärvi (L)")
-                      (location . "Finland")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Finland"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1292,24 +1292,24 @@
                   #f)))
            #s(stage
               "Paskuri (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Clear")
-                      (time-of-day . "Afternoon")
                       (name . "Paskuri (S)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Paskuri (S)")
+                      (time-of-day . "Afternoon")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1980s_rwd.jpg"))))
-                      (wager . #f)
-                      (stage . "Paskuri (S)")
-                      (location . "Finland")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Finland"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1325,24 +1325,24 @@
                   #f)))
            #s(stage
               "Jyrkysjärvi (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Clear")
-                      (time-of-day . "Afternoon")
                       (name . "Jyrkysjärvi (S)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Jyrkysjärvi (S)")
+                      (time-of-day . "Afternoon")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1980s_rwd.jpg"))))
-                      (wager . #f)
-                      (stage . "Jyrkysjärvi (S)")
-                      (location . "Finland")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Finland"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1362,11 +1362,17 @@
           #s(event "promotional" #s(date 2016 9 16) "150287")
           (#s(stage
               "Sweet Lamb (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Overcast")
-                      (time-of-day . "Morning")
                       (name . "Sweet Lamb (L)")
+                      (weather . "Overcast")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Sweet Lamb (L)")
+                      (time-of-day . "Morning")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
@@ -1376,13 +1382,7 @@
                                  "Ford Sierra Cosworth RS500"
                                  "Subaru Impreza 1995"
                                  "Ford Focus RS Rally 2001"))))
-                      (wager . #f)
-                      (stage . "Sweet Lamb (L)")
-                      (location . "Wales")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Wales"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1398,11 +1398,17 @@
                   #f)))
            #s(stage
               "River Severn Valley (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Rain")
-                      (time-of-day . "Morning")
                       (name . "River Severn Valley (L)")
+                      (weather . "Rain")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "River Severn Valley (L)")
+                      (time-of-day . "Morning")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
@@ -1412,13 +1418,7 @@
                                  "Ford Sierra Cosworth RS500"
                                  "Subaru Impreza 1995"
                                  "Ford Focus RS Rally 2001"))))
-                      (wager . #f)
-                      (stage . "River Severn Valley (L)")
-                      (location . "Wales")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Wales"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1434,11 +1434,17 @@
                   #f)))
            #s(stage
               "Geufron Forest (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Overcast")
-                      (time-of-day . "Morning")
                       (name . "Geufron Forest (L)")
+                      (weather . "Overcast")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Geufron Forest (L)")
+                      (time-of-day . "Morning")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
@@ -1448,13 +1454,7 @@
                                  "Ford Sierra Cosworth RS500"
                                  "Subaru Impreza 1995"
                                  "Ford Focus RS Rally 2001"))))
-                      (wager . #f)
-                      (stage . "Geufron Forest (L)")
-                      (location . "Wales")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Wales"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1470,11 +1470,17 @@
                   #f)))
            #s(stage
               "Bronfelen (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Overcast")
-                      (time-of-day . "Afternoon")
                       (name . "Bronfelen (L)")
+                      (weather . "Overcast")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Bronfelen (L)")
+                      (time-of-day . "Afternoon")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
@@ -1484,13 +1490,7 @@
                                  "Ford Sierra Cosworth RS500"
                                  "Subaru Impreza 1995"
                                  "Ford Focus RS Rally 2001"))))
-                      (wager . #f)
-                      (stage . "Bronfelen (L)")
-                      (location . "Wales")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Wales"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1510,20 +1510,20 @@
           #s(event "daily2" #s(date 2016 9 4) "138141")
           (#s(stage
               "Ruschberg (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Clear")
-                      (time-of-day . "Night")
                       (name . "Ruschberg (L)")
-                      (checkpoint . #f)
-                      (restriction . #hasheq((Vehicle . ("Renault 5 Turbo"))))
-                      (wager . #f)
-                      (stage . "Ruschberg (L)")
-                      (location . "Germany")
+                      (weather . "Clear")
                       (engineers . #t)
                       (only-owned-vehicles . #f)
+                      (stage . "Ruschberg (L)")
+                      (time-of-day . "Night")
                       (service . #t)
-                      (retry . #f))
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction . #hasheq((Vehicle . ("Renault 5 Turbo"))))
+                      (location . "Germany"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1543,20 +1543,20 @@
           #s(event "daily" #s(date 2016 9 18) "142349")
           (#s(stage
               "Kontinjärvi (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Clear")
-                      (time-of-day . "Afternoon")
                       (name . "Kontinjärvi (L)")
-                      (checkpoint . #f)
-                      (restriction . #hasheq((Vehicle . ("Fiat 131 Abarth"))))
-                      (wager . #f)
-                      (stage . "Kontinjärvi (L)")
-                      (location . "Finland")
+                      (weather . "Clear")
                       (engineers . #t)
                       (only-owned-vehicles . #f)
+                      (stage . "Kontinjärvi (L)")
+                      (time-of-day . "Afternoon")
                       (service . #t)
-                      (retry . #f))
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction . #hasheq((Vehicle . ("Fiat 131 Abarth"))))
+                      (location . "Finland"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1576,22 +1576,22 @@
           #s(event "daily" #s(date 2016 9 5) "138134")
           (#s(stage
               "Route de Turini Descente (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Mist")
-                      (time-of-day . "Night")
                       (name . "Route de Turini Descente (S)")
+                      (weather . "Mist")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Route de Turini Descente (S)")
+                      (time-of-day . "Night")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Escort Mk II"))))
-                      (wager . #f)
-                      (stage . "Route de Turini Descente (S)")
-                      (location . "Monaco")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Monaco"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1611,24 +1611,24 @@
           #s(event "daily" #s(date 2016 9 11) "140370")
           (#s(stage
               "Pikes Peak (Gravel) - Full Course (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Clear")
-                      (time-of-day . "Sunset")
                       (name . "Pikes Peak (Gravel) - Full Course (L)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Pikes Peak (Gravel) - Full Course (L)")
+                      (time-of-day . "Sunset")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle
                                 .
                                 ("Audi Sport quattro S1 Pikes Peak"))))
-                      (wager . #f)
-                      (stage . "Pikes Peak (Gravel) - Full Course (L)")
-                      (location . "USA")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "USA"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1648,22 +1648,22 @@
           #s(event "daily2" #s(date 2016 9 19) "142358")
           (#s(stage
               "Östra Hinnsjön (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Snow")
-                      (time-of-day . "Night")
                       (name . "Östra Hinnsjön (S)")
+                      (weather . "Snow")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Östra Hinnsjön (S)")
+                      (time-of-day . "Night")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Lancia Delta HF Integrale"))))
-                      (wager . #f)
-                      (stage . "Östra Hinnsjön (S)")
-                      (location . "Sweden")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1683,20 +1683,20 @@
           #s(event "daily" #s(date 2016 9 1) "135598")
           (#s(stage
               "Elgsjön (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Mist")
-                      (time-of-day . "Night")
                       (name . "Elgsjön (S)")
-                      (checkpoint . #f)
-                      (restriction . #hasheq((Vehicle . ("MINI Cooper S"))))
-                      (wager . #f)
-                      (stage . "Elgsjön (S)")
-                      (location . "Sweden")
+                      (weather . "Mist")
                       (engineers . #t)
                       (only-owned-vehicles . #f)
+                      (stage . "Elgsjön (S)")
+                      (time-of-day . "Night")
                       (service . #t)
-                      (retry . #f))
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction . #hasheq((Vehicle . ("MINI Cooper S"))))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1716,20 +1716,20 @@
           #s(event "daily" #s(date 2016 9 25) "143991")
           (#s(stage
               "Pitkäjärvi (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Clear")
-                      (time-of-day . "Night")
                       (name . "Pitkäjärvi (L)")
-                      (checkpoint . #f)
-                      (restriction . #hasheq((Vehicle . ("Renault 5 Turbo"))))
-                      (wager . #f)
-                      (stage . "Pitkäjärvi (L)")
-                      (location . "Finland")
+                      (weather . "Clear")
                       (engineers . #t)
                       (only-owned-vehicles . #f)
+                      (stage . "Pitkäjärvi (L)")
+                      (time-of-day . "Night")
                       (service . #t)
-                      (retry . #f))
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction . #hasheq((Vehicle . ("Renault 5 Turbo"))))
+                      (location . "Finland"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1749,22 +1749,22 @@
           #s(event "daily" #s(date 2016 9 10) "138139")
           (#s(stage
               "Pikes Peak (Gravel) - Full Course (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Sunny")
-                      (time-of-day . "Afternoon")
                       (name . "Pikes Peak (Gravel) - Full Course (L)")
+                      (weather . "Sunny")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Pikes Peak (Gravel) - Full Course (L)")
+                      (time-of-day . "Afternoon")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Peugeot 205 T16 Pikes Peak"))))
-                      (wager . #f)
-                      (stage . "Pikes Peak (Gravel) - Full Course (L)")
-                      (location . "USA")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "USA"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1784,22 +1784,22 @@
           #s(event "daily" #s(date 2016 9 6) "138135")
           (#s(stage
               "Östra Hinnsjön (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Cloudy")
-                      (time-of-day . "Afternoon")
                       (name . "Östra Hinnsjön (S)")
+                      (weather . "Cloudy")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Östra Hinnsjön (S)")
+                      (time-of-day . "Afternoon")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Mitsubishi Lancer Evolution X"))))
-                      (wager . #f)
-                      (stage . "Östra Hinnsjön (S)")
-                      (location . "Sweden")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1819,22 +1819,22 @@
           #s(event "daily" #s(date 2016 9 21) "142352")
           (#s(stage
               "Col de Turini -  Sprint en descente (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Wet")
-                      (time-of-day . "Night")
                       (name . "Col de Turini -  Sprint en descente (S)")
+                      (weather . "Wet")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Col de Turini -  Sprint en descente (S)")
+                      (time-of-day . "Night")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Opel Kadett GT/E 16v"))))
-                      (wager . #f)
-                      (stage . "Col de Turini -  Sprint en descente (S)")
-                      (location . "Monaco")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Monaco"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1854,22 +1854,22 @@
           #s(event "daily" #s(date 2016 9 9) "138138")
           (#s(stage
               "Approche du Col de Turini - Montée (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Mist")
-                      (time-of-day . "Night")
                       (name . "Approche du Col de Turini - Montée (S)")
+                      (weather . "Mist")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Approche du Col de Turini - Montée (S)")
+                      (time-of-day . "Night")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Subaru Impreza 2001"))))
-                      (wager . #f)
-                      (stage . "Approche du Col de Turini - Montée (S)")
-                      (location . "Monaco")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Monaco"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1889,22 +1889,22 @@
           #s(event "daily" #s(date 2016 9 22) "142353")
           (#s(stage
               "Hell - Full Circuit"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Overcast")
-                      (time-of-day . "Afternoon")
                       (name . "Hell - Full Circuit")
+                      (weather . "Overcast")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Hell - Full Circuit")
+                      (time-of-day . "Afternoon")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Fiesta Rallycross"))))
-                      (wager . #f)
-                      (stage . "Hell - Full Circuit")
-                      (location . "Norway")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Norway"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1924,24 +1924,24 @@
           #s(event "weekly2" #s(date 2016 9 19) "142364")
           (#s(stage
               "Geufron Forest (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Overcast")
-                      (time-of-day . "Morning")
                       (name . "Geufron Forest (L)")
+                      (weather . "Overcast")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Geufron Forest (L)")
+                      (time-of-day . "Morning")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
-                      (wager . #f)
-                      (stage . "Geufron Forest (L)")
-                      (location . "Wales")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Wales"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1957,24 +1957,24 @@
                   #f)))
            #s(stage
               "Bronfelen (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Overcast")
-                      (time-of-day . "Morning")
                       (name . "Bronfelen (L)")
+                      (weather . "Overcast")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Bronfelen (L)")
+                      (time-of-day . "Morning")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
-                      (wager . #f)
-                      (stage . "Bronfelen (L)")
-                      (location . "Wales")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Wales"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -1990,24 +1990,24 @@
                   #f)))
            #s(stage
               "Hämelahti (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Sunny")
-                      (time-of-day . "Midday")
                       (name . "Hämelahti (L)")
+                      (weather . "Sunny")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Hämelahti (L)")
+                      (time-of-day . "Midday")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
-                      (wager . #f)
-                      (stage . "Hämelahti (L)")
-                      (location . "Finland")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Finland"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2023,24 +2023,24 @@
                   #f)))
            #s(stage
               "Pitkäjärvi (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Sunny")
-                      (time-of-day . "Midday")
                       (name . "Pitkäjärvi (L)")
+                      (weather . "Sunny")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Pitkäjärvi (L)")
+                      (time-of-day . "Midday")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
-                      (wager . #f)
-                      (stage . "Pitkäjärvi (L)")
-                      (location . "Finland")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Finland"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2056,24 +2056,24 @@
                   #f)))
            #s(stage
               "Norraskoga (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Snow")
-                      (time-of-day . "Afternoon")
                       (name . "Norraskoga (L)")
+                      (weather . "Snow")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Norraskoga (L)")
+                      (time-of-day . "Afternoon")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
-                      (wager . #f)
-                      (stage . "Norraskoga (L)")
-                      (location . "Sweden")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2089,24 +2089,24 @@
                   #f)))
            #s(stage
               "Lysvik (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Cloudy")
-                      (time-of-day . "Afternoon")
                       (name . "Lysvik (L)")
+                      (weather . "Cloudy")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Lysvik (L)")
+                      (time-of-day . "Afternoon")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
-                      (wager . #f)
-                      (stage . "Lysvik (L)")
-                      (location . "Sweden")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2126,20 +2126,20 @@
           #s(event "daily" #s(date 2016 9 13) "140372")
           (#s(stage
               "Lydden Hill - Full Circuit"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Overcast")
-                      (time-of-day . "Afternoon")
                       (name . "Lydden Hill - Full Circuit")
-                      (checkpoint . #f)
-                      (restriction . #hasheq((Vehicle . ("DS 3"))))
-                      (wager . #f)
-                      (stage . "Lydden Hill - Full Circuit")
-                      (location . "United Kingdom")
+                      (weather . "Overcast")
                       (engineers . #t)
                       (only-owned-vehicles . #f)
+                      (stage . "Lydden Hill - Full Circuit")
+                      (time-of-day . "Afternoon")
                       (service . #t)
-                      (retry . #f))
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction . #hasheq((Vehicle . ("DS 3"))))
+                      (location . "United Kingdom"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2153,28 +2153,63 @@
                   #s(player "playstationnetwork" "Eitrir" 518640)
                   #f
                   #f))))))
+      (#s(event "daily" #s(date 2016 9 26) "143992")
+       .
+       #s(event/results
+          #s(event "daily" #s(date 2016 9 26) "143992")
+          (#s(stage
+              "Pikes Peak - Full Course (L)"
+              #hasheq((wager . #f)
+                      (restart . #f)
+                      (tuning . #f)
+                      (name . "Pikes Peak - Full Course (L)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Pikes Peak - Full Course (L)")
+                      (time-of-day . "Sunset")
+                      (service . #t)
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction
+                       .
+                       #hasheq((Vehicle . ("Peugeot 208 T16 Pikes Peak"))))
+                      (location . "USA"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Peugeot 208 T16 Pikes Peak"
+                  #s(racetime 0 10 15 976))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Peugeot 208 T16 Pikes Peak"
+                  #s(racetime 0 8 40 95))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f))))))
       (#s(event "daily2" #s(date 2016 9 3) "135608")
        .
        #s(event/results
           #s(event "daily2" #s(date 2016 9 3) "135608")
           (#s(stage
               "River Severn Valley (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Overcast")
-                      (time-of-day . "Morning")
                       (name . "River Severn Valley (L)")
+                      (weather . "Overcast")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "River Severn Valley (L)")
+                      (time-of-day . "Morning")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Opel Kadett GT/E 16v"))))
-                      (wager . #f)
-                      (stage . "River Severn Valley (L)")
-                      (location . "Wales")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Wales"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2194,22 +2229,22 @@
           #s(event "daily2" #s(date 2016 9 17) "140384")
           (#s(stage
               "Geufron Forest (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Rain")
-                      (time-of-day . "Morning")
                       (name . "Geufron Forest (L)")
+                      (weather . "Rain")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Geufron Forest (L)")
+                      (time-of-day . "Morning")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Seat Ibiza Kitcar"))))
-                      (wager . #f)
-                      (stage . "Geufron Forest (L)")
-                      (location . "Wales")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Wales"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2229,22 +2264,22 @@
           #s(event "daily" #s(date 2016 9 17) "140376")
           (#s(stage
               "Frauenberg (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Clear")
-                      (time-of-day . "Morning")
                       (name . "Frauenberg (L)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Frauenberg (L)")
+                      (time-of-day . "Morning")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Peugeot 205 T16 Evo 2"))))
-                      (wager . #f)
-                      (stage . "Frauenberg (L)")
-                      (location . "Germany")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Germany"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2264,20 +2299,20 @@
           #s(event "daily2" #s(date 2016 9 2) "135607")
           (#s(stage
               "Pant Mawr (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Overcast")
-                      (time-of-day . "Night")
                       (name . "Pant Mawr (S)")
-                      (checkpoint . #f)
-                      (restriction . #hasheq((Vehicle . ("Lancia Stratos"))))
-                      (wager . #f)
-                      (stage . "Pant Mawr (S)")
-                      (location . "Wales")
+                      (weather . "Overcast")
                       (engineers . #t)
                       (only-owned-vehicles . #t)
+                      (stage . "Pant Mawr (S)")
+                      (time-of-day . "Night")
                       (service . #t)
-                      (retry . #f))
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction . #hasheq((Vehicle . ("Lancia Stratos"))))
+                      (location . "Wales"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2291,26 +2326,61 @@
                   #s(player "playstationnetwork" "Eitrir" 518640)
                   #f
                   #f))))))
+      (#s(event "daily2" #s(date 2016 9 26) "144000")
+       .
+       #s(event/results
+          #s(event "daily2" #s(date 2016 9 26) "144000")
+          (#s(stage
+              "Waldaufstieg (S)"
+              #hasheq((wager . #f)
+                      (restart . #f)
+                      (tuning . #f)
+                      (name . "Waldaufstieg (S)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Waldaufstieg (S)")
+                      (time-of-day . "Night")
+                      (service . #t)
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction
+                       .
+                       #hasheq((Vehicle . ("Ford Focus RS Rally 2001"))))
+                      (location . "Germany"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Ford Focus RS Rally 2001"
+                  #s(racetime 0 3 21 958))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Ford Focus RS Rally 2001"
+                  #s(racetime 0 3 10 625))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f))))))
       (#s(event "daily2" #s(date 2016 9 14) "140381")
        .
        #s(event/results
           #s(event "daily2" #s(date 2016 9 14) "140381")
           (#s(stage
               "Dyffryn Afon (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Overcast")
-                      (time-of-day . "Night")
                       (name . "Dyffryn Afon (S)")
-                      (checkpoint . #f)
-                      (restriction . #hasheq((Vehicle . ("Hyundai Rally"))))
-                      (wager . #f)
-                      (stage . "Dyffryn Afon (S)")
-                      (location . "Wales")
+                      (weather . "Overcast")
                       (engineers . #t)
                       (only-owned-vehicles . #t)
+                      (stage . "Dyffryn Afon (S)")
+                      (time-of-day . "Night")
                       (service . #t)
-                      (retry . #f))
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction . #hasheq((Vehicle . ("Hyundai Rally"))))
+                      (location . "Wales"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2330,22 +2400,22 @@
           #s(event "daily" #s(date 2016 9 24) "142355")
           (#s(stage
               "Norraskoga (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Mist")
-                      (time-of-day . "Afternoon")
                       (name . "Norraskoga (L)")
+                      (weather . "Mist")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Norraskoga (L)")
+                      (time-of-day . "Afternoon")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Audi Sport quattro Rallye"))))
-                      (wager . #f)
-                      (stage . "Norraskoga (L)")
-                      (location . "Sweden")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2365,22 +2435,22 @@
           #s(event "daily2" #s(date 2016 9 24) "142363")
           (#s(stage
               "Vallée descendante (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Mist")
-                      (time-of-day . "Night")
                       (name . "Vallée descendante (L)")
+                      (weather . "Mist")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Vallée descendante (L)")
+                      (time-of-day . "Night")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Subaru Impreza 2001"))))
-                      (wager . #f)
-                      (stage . "Vallée descendante (L)")
-                      (location . "Monaco")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Monaco"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2400,22 +2470,22 @@
           #s(event "daily" #s(date 2016 9 20) "142351")
           (#s(stage
               "Dyffryn Afon Reverse (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Overcast")
-                      (time-of-day . "Morning")
                       (name . "Dyffryn Afon Reverse (S)")
+                      (weather . "Overcast")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Dyffryn Afon Reverse (S)")
+                      (time-of-day . "Morning")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Fiesta RS Rally"))))
-                      (wager . #f)
-                      (stage . "Dyffryn Afon Reverse (S)")
-                      (location . "Wales")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Wales"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2435,20 +2505,20 @@
           #s(event "daily" #s(date 2016 9 4) "138133")
           (#s(stage
               "Lydden Hill - Full Circuit"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Rain")
-                      (time-of-day . "Afternoon")
                       (name . "Lydden Hill - Full Circuit")
-                      (checkpoint . #f)
-                      (restriction . #hasheq((Vehicle . ("Peugeot 208 WRX"))))
-                      (wager . #f)
-                      (stage . "Lydden Hill - Full Circuit")
-                      (location . "United Kingdom")
+                      (weather . "Rain")
                       (engineers . #t)
                       (only-owned-vehicles . #f)
+                      (stage . "Lydden Hill - Full Circuit")
+                      (time-of-day . "Afternoon")
                       (service . #t)
-                      (retry . #f))
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction . #hasheq((Vehicle . ("Peugeot 208 WRX"))))
+                      (location . "United Kingdom"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2468,20 +2538,20 @@
           #s(event "daily2" #s(date 2016 9 22) "142361")
           (#s(stage
               "Älgsjön (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Mist")
-                      (time-of-day . "Night")
                       (name . "Älgsjön (S)")
-                      (checkpoint . #f)
-                      (restriction . #hasheq((Vehicle . ("MG Metro 6R4"))))
-                      (wager . #f)
-                      (stage . "Älgsjön (S)")
-                      (location . "Sweden")
+                      (weather . "Mist")
                       (engineers . #t)
                       (only-owned-vehicles . #t)
+                      (stage . "Älgsjön (S)")
+                      (time-of-day . "Night")
                       (service . #t)
-                      (retry . #f))
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction . #hasheq((Vehicle . ("MG Metro 6R4"))))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2501,22 +2571,22 @@
           #s(event "daily2" #s(date 2016 9 1) "135606")
           (#s(stage
               "Ypsona tou Dasos (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Clear")
-                      (time-of-day . "Sunset")
                       (name . "Ypsona tou Dasos (S)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Ypsona tou Dasos (S)")
+                      (time-of-day . "Sunset")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("MINI Countryman Rally Edition"))))
-                      (wager . #f)
-                      (stage . "Ypsona tou Dasos (S)")
-                      (location . "Greece")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Greece"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2536,20 +2606,20 @@
           #s(event "daily" #s(date 2016 9 8) "138137")
           (#s(stage
               "Bidno Moorland (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Overcast")
-                      (time-of-day . "Afternoon")
                       (name . "Bidno Moorland (S)")
-                      (checkpoint . #f)
-                      (restriction . #hasheq((Vehicle . ("MG Metro 6R4"))))
-                      (wager . #f)
-                      (stage . "Bidno Moorland (S)")
-                      (location . "Wales")
+                      (weather . "Overcast")
                       (engineers . #t)
                       (only-owned-vehicles . #f)
+                      (stage . "Bidno Moorland (S)")
+                      (time-of-day . "Afternoon")
                       (service . #t)
-                      (retry . #f))
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction . #hasheq((Vehicle . ("MG Metro 6R4"))))
+                      (location . "Wales"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2569,22 +2639,22 @@
           #s(event "daily2" #s(date 2016 9 13) "140380")
           (#s(stage
               "Naarajärvi (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Clear")
-                      (time-of-day . "Afternoon")
                       (name . "Naarajärvi (S)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Naarajärvi (S)")
+                      (time-of-day . "Afternoon")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Citroën C4 Rally 2010"))))
-                      (wager . #f)
-                      (stage . "Naarajärvi (S)")
-                      (location . "Finland")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Finland"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2604,22 +2674,22 @@
           #s(event "daily2" #s(date 2016 9 15) "140382")
           (#s(stage
               "Järvenkylä (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Sunny")
-                      (time-of-day . "Midday")
                       (name . "Järvenkylä (S)")
+                      (weather . "Sunny")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Järvenkylä (S)")
+                      (time-of-day . "Midday")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("MINI Countryman Rally Edition"))))
-                      (wager . #f)
-                      (stage . "Järvenkylä (S)")
-                      (location . "Finland")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Finland"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2639,22 +2709,22 @@
           #s(event "daily" #s(date 2016 9 7) "138136")
           (#s(stage
               "Pant Mawr Reverse (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Rain")
-                      (time-of-day . "Morning")
                       (name . "Pant Mawr Reverse (S)")
+                      (weather . "Rain")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Pant Mawr Reverse (S)")
+                      (time-of-day . "Morning")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Subaru Impreza WRX STI 2011"))))
-                      (wager . #f)
-                      (stage . "Pant Mawr Reverse (S)")
-                      (location . "Wales")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Wales"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2674,22 +2744,22 @@
           #s(event "daily" #s(date 2016 9 12) "140371")
           (#s(stage
               "Kotajärvi (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Sunny")
-                      (time-of-day . "Midday")
                       (name . "Kotajärvi (S)")
+                      (weather . "Sunny")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Kotajärvi (S)")
+                      (time-of-day . "Midday")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Escort RS Cosworth"))))
-                      (wager . #f)
-                      (stage . "Kotajärvi (S)")
-                      (location . "Finland")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Finland"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2709,22 +2779,22 @@
           #s(event "daily2" #s(date 2016 9 6) "138143")
           (#s(stage
               "Stor-jangen Sprint (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Snow")
-                      (time-of-day . "Night")
                       (name . "Stor-jangen Sprint (S)")
+                      (weather . "Snow")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Stor-jangen Sprint (S)")
+                      (time-of-day . "Night")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Focus RS WRC 2007"))))
-                      (wager . #f)
-                      (stage . "Stor-jangen Sprint (S)")
-                      (location . "Sweden")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Sweden"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2744,20 +2814,20 @@
           #s(event "daily2" #s(date 2016 9 9) "138146")
           (#s(stage
               "Pomona Ékrixi (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Clear")
-                      (time-of-day . "Night")
                       (name . "Pomona Ékrixi (S)")
-                      (checkpoint . #f)
-                      (restriction . #hasheq((Vehicle . ("Peugeot 306 Maxi"))))
-                      (wager . #f)
-                      (stage . "Pomona Ékrixi (S)")
-                      (location . "Greece")
+                      (weather . "Clear")
                       (engineers . #t)
                       (only-owned-vehicles . #f)
+                      (stage . "Pomona Ékrixi (S)")
+                      (time-of-day . "Night")
                       (service . #t)
-                      (retry . #f))
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction . #hasheq((Vehicle . ("Peugeot 306 Maxi"))))
+                      (location . "Greece"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2777,24 +2847,24 @@
           #s(event "weekly" #s(date 2016 9 19) "142356")
           (#s(stage
               "Vallée descendante (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Sunny")
-                      (time-of-day . "Midday")
                       (name . "Vallée descendante (L)")
+                      (weather . "Sunny")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Vallée descendante (L)")
+                      (time-of-day . "Midday")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
-                      (wager . #f)
-                      (stage . "Vallée descendante (L)")
-                      (location . "Monaco")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Monaco"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2810,24 +2880,24 @@
                   #f)))
            #s(stage
               "Route de Turini Montée (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Sunny")
-                      (time-of-day . "Midday")
                       (name . "Route de Turini Montée (S)")
+                      (weather . "Sunny")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Route de Turini Montée (S)")
+                      (time-of-day . "Midday")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
-                      (wager . #f)
-                      (stage . "Route de Turini Montée (S)")
-                      (location . "Monaco")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Monaco"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2843,24 +2913,24 @@
                   #f)))
            #s(stage
               "Approche du Col de Turini - Montée (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Mist")
-                      (time-of-day . "Afternoon")
                       (name . "Approche du Col de Turini - Montée (S)")
+                      (weather . "Mist")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Approche du Col de Turini - Montée (S)")
+                      (time-of-day . "Afternoon")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
-                      (wager . #f)
-                      (stage . "Approche du Col de Turini - Montée (S)")
-                      (location . "Monaco")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Monaco"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2876,24 +2946,24 @@
                   #f)))
            #s(stage
               "Col de Turini - Départ en descente (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Mist")
-                      (time-of-day . "Afternoon")
                       (name . "Col de Turini - Départ en descente (S)")
+                      (weather . "Mist")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Col de Turini - Départ en descente (S)")
+                      (time-of-day . "Afternoon")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
-                      (wager . #f)
-                      (stage . "Col de Turini - Départ en descente (S)")
-                      (location . "Monaco")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Monaco"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2909,24 +2979,24 @@
                   #f)))
            #s(stage
               "Route de Turini Descente (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Mist")
-                      (time-of-day . "Night")
                       (name . "Route de Turini Descente (S)")
+                      (weather . "Mist")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Route de Turini Descente (S)")
+                      (time-of-day . "Night")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #t)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
-                      (wager . #f)
-                      (stage . "Route de Turini Descente (S)")
-                      (location . "Monaco")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Monaco"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2942,24 +3012,24 @@
                   #f)))
            #s(stage
               "Route de Turini (L)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Wet")
-                      (time-of-day . "Night")
                       (name . "Route de Turini (L)")
+                      (weather . "Wet")
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (stage . "Route de Turini (L)")
+                      (time-of-day . "Night")
+                      (service . #f)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
-                      (wager . #f)
-                      (stage . "Route de Turini (L)")
-                      (location . "Monaco")
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (service . #f)
-                      (retry . #f))
+                      (location . "Monaco"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -2979,22 +3049,22 @@
           #s(event "daily" #s(date 2016 9 19) "142350")
           (#s(stage
               "Pedines Epidaxi (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Clear")
-                      (time-of-day . "Morning")
                       (name . "Pedines Epidaxi (S)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Pedines Epidaxi (S)")
+                      (time-of-day . "Morning")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Subaru Impreza 1995"))))
-                      (wager . #f)
-                      (stage . "Pedines Epidaxi (S)")
-                      (location . "Greece")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Greece"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -3014,22 +3084,22 @@
           #s(event "daily" #s(date 2016 9 2) "135599")
           (#s(stage
               "Waldabstieg (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #f)
-                      (weather . "Clear")
-                      (time-of-day . "Night")
                       (name . "Waldabstieg (S)")
+                      (weather . "Clear")
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (stage . "Waldabstieg (S)")
+                      (time-of-day . "Night")
+                      (service . #t)
+                      (retry . #f)
                       (checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Seat Ibiza Kitcar"))))
-                      (wager . #f)
-                      (stage . "Waldabstieg (S)")
-                      (location . "Germany")
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (service . #t)
-                      (retry . #f))
+                      (location . "Germany"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -3049,20 +3119,20 @@
           #s(event "daily2" #s(date 2016 9 23) "142362")
           (#s(stage
               "Verbundsring (S)"
-              #hasheq((restart . #f)
+              #hasheq((wager . #f)
+                      (restart . #f)
                       (tuning . #t)
-                      (weather . "Clear")
-                      (time-of-day . "Night")
                       (name . "Verbundsring (S)")
-                      (checkpoint . #f)
-                      (restriction . #hasheq((Vehicle . ("Peugeot 306 Maxi"))))
-                      (wager . #f)
-                      (stage . "Verbundsring (S)")
-                      (location . "Germany")
+                      (weather . "Clear")
                       (engineers . #t)
                       (only-owned-vehicles . #t)
+                      (stage . "Verbundsring (S)")
+                      (time-of-day . "Night")
                       (service . #t)
-                      (retry . #f))
+                      (retry . #f)
+                      (checkpoint . #f)
+                      (restriction . #hasheq((Vehicle . ("Peugeot 306 Maxi"))))
+                      (location . "Germany"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
