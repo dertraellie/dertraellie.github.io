@@ -1,0 +1,68 @@
+#hash((#s(event "daily" #s(date 2016 10 1) "143997")
+       .
+       #s(event/results
+          #s(event "daily" #s(date 2016 10 1) "143997")
+          (#s(stage
+              "Ransbysäter (L)"
+              #hasheq((wager . #f)
+                      (location . "Sweden")
+                      (only-owned-vehicles . #f)
+                      (retry . #f)
+                      (tuning . #f)
+                      (stage . "Ransbysäter (L)")
+                      (time-of-day . "Night")
+                      (checkpoint . #f)
+                      (name . "Ransbysäter (L)")
+                      (restriction
+                       .
+                       #hasheq((Vehicle . ("Ford Sierra Cosworth RS500"))))
+                      (engineers . #t)
+                      (service . #t)
+                      (restart . #f)
+                      (weather . "Mist"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Ford Sierra Cosworth RS500"
+                  #s(racetime 0 8 15 396))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Ford Sierra Cosworth RS500"
+                  #s(racetime 0 7 29 882))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f))))))
+      (#s(event "daily2" #s(date 2016 10 1) "144005")
+       .
+       #s(event/results
+          #s(event "daily2" #s(date 2016 10 1) "144005")
+          (#s(stage
+              "Tsiristra Théa (L)"
+              #hasheq((wager . #f)
+                      (location . "Greece")
+                      (only-owned-vehicles . #f)
+                      (retry . #f)
+                      (tuning . #f)
+                      (stage . "Tsiristra Théa (L)")
+                      (time-of-day . "Night")
+                      (checkpoint . #f)
+                      (name . "Tsiristra Théa (L)")
+                      (restriction . #hasheq((Vehicle . ("Lancia Delta S4"))))
+                      (engineers . #t)
+                      (service . #t)
+                      (restart . #f)
+                      (weather . "Clear"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Lancia Delta S4"
+                  #s(racetime 0 6 59 966))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Lancia Delta S4"
+                  #s(racetime 0 7 15 750))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f)))))))
