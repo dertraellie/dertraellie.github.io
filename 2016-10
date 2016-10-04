@@ -4,22 +4,22 @@
           #s(event "daily" #s(date 2016 10 1) "143997")
           (#s(stage
               "Ransbysäter (L)"
-              #hasheq((wager . #f)
-                      (location . "Sweden")
-                      (only-owned-vehicles . #f)
-                      (retry . #f)
-                      (tuning . #f)
-                      (stage . "Ransbysäter (L)")
-                      (time-of-day . "Night")
-                      (checkpoint . #f)
-                      (name . "Ransbysäter (L)")
+              #hasheq((checkpoint . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Sierra Cosworth RS500"))))
+                      (name . "Ransbysäter (L)")
+                      (wager . #f)
                       (engineers . #t)
+                      (only-owned-vehicles . #f)
                       (service . #t)
+                      (retry . #f)
                       (restart . #f)
-                      (weather . "Mist"))
+                      (tuning . #f)
+                      (location . "Sweden")
+                      (weather . "Mist")
+                      (stage . "Ransbysäter (L)")
+                      (time-of-day . "Night"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
@@ -33,26 +33,96 @@
                   #s(player "playstationnetwork" "Eitrir" 518640)
                   #f
                   #f))))))
+      (#s(event "daily" #s(date 2016 10 2) "145895")
+       .
+       #s(event/results
+          #s(event "daily" #s(date 2016 10 2) "145895")
+          (#s(stage
+              "Pikes Peak (Gravel) - Full Course (L)"
+              #hasheq((checkpoint . #f)
+                      (restriction
+                       .
+                       #hasheq((Vehicle . ("Peugeot 205 T16 Pikes Peak"))))
+                      (name . "Pikes Peak (Gravel) - Full Course (L)")
+                      (wager . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (service . #t)
+                      (retry . #f)
+                      (restart . #f)
+                      (tuning . #f)
+                      (location . "USA")
+                      (weather . "Rain")
+                      (stage . "Pikes Peak (Gravel) - Full Course (L)")
+                      (time-of-day . "Afternoon"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Peugeot 205 T16 Pikes Peak"
+                  #s(racetime 0 30 0 0))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Peugeot 205 T16 Pikes Peak"
+                  #s(racetime 0 9 6 994))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f))))))
+      (#s(event "daily2" #s(date 2016 10 2) "145903")
+       .
+       #s(event/results
+          #s(event "daily2" #s(date 2016 10 2) "145903")
+          (#s(stage
+              "Kakaristo (L)"
+              #hasheq((checkpoint . #f)
+                      (restriction
+                       .
+                       #hasheq((Vehicle . ("Lancia Delta HF Integrale"))))
+                      (name . "Kakaristo (L)")
+                      (wager . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (service . #t)
+                      (retry . #f)
+                      (restart . #f)
+                      (tuning . #f)
+                      (location . "Finland")
+                      (weather . "Overcast")
+                      (stage . "Kakaristo (L)")
+                      (time-of-day . "Morning"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Lancia Delta HF Integrale"
+                  #s(racetime 0 9 51 59))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Lancia Delta HF Integrale"
+                  #s(racetime 0 7 45 981))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f))))))
       (#s(event "daily2" #s(date 2016 10 1) "144005")
        .
        #s(event/results
           #s(event "daily2" #s(date 2016 10 1) "144005")
           (#s(stage
               "Tsiristra Théa (L)"
-              #hasheq((wager . #f)
-                      (location . "Greece")
-                      (only-owned-vehicles . #f)
-                      (retry . #f)
-                      (tuning . #f)
-                      (stage . "Tsiristra Théa (L)")
-                      (time-of-day . "Night")
-                      (checkpoint . #f)
-                      (name . "Tsiristra Théa (L)")
+              #hasheq((checkpoint . #f)
                       (restriction . #hasheq((Vehicle . ("Lancia Delta S4"))))
+                      (name . "Tsiristra Théa (L)")
+                      (wager . #f)
                       (engineers . #t)
+                      (only-owned-vehicles . #f)
                       (service . #t)
+                      (retry . #f)
                       (restart . #f)
-                      (weather . "Clear"))
+                      (tuning . #f)
+                      (location . "Greece")
+                      (weather . "Clear")
+                      (stage . "Tsiristra Théa (L)")
+                      (time-of-day . "Night"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
                   #s(player "playstationnetwork" "Gnorrf" 547927)
