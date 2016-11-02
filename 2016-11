@@ -1,0 +1,70 @@
+#hash((#s(event "daily" #s(date 2016 11 1) "152666")
+       .
+       #s(event/results
+          #s(event "daily" #s(date 2016 11 1) "152666")
+          (#s(stage
+              "Höljes - Full Circuit"
+              #hasheq((name . "Höljes - Full Circuit")
+                      (stage . "Höljes - Full Circuit")
+                      (checkpoint . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #f)
+                      (restart . #f)
+                      (restriction
+                       .
+                       #hasheq((Vehicle . ("Peugeot  207 S1600"))))
+                      (retry . #f)
+                      (location . "Sweden")
+                      (service . #t)
+                      (time-of-day . "Midday")
+                      (tuning . #f)
+                      (wager . #f)
+                      (weather . "Sunny"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Peugeot  207 S1600"
+                  #s(racetime 0 3 13 620))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Peugeot  207 S1600"
+                  #s(racetime 0 3 10 564))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f))))))
+      (#s(event "daily2" #s(date 2016 11 1) "152674")
+       .
+       #s(event/results
+          #s(event "daily2" #s(date 2016 11 1) "152674")
+          (#s(stage
+              "Älgsjön Sprint (S)"
+              #hasheq((name . "Älgsjön Sprint (S)")
+                      (stage . "Älgsjön Sprint (S)")
+                      (checkpoint . #f)
+                      (engineers . #t)
+                      (only-owned-vehicles . #t)
+                      (restart . #f)
+                      (restriction
+                       .
+                       #hasheq((Vehicle . ("BMW E30 M3 Evo Rally"))))
+                      (retry . #f)
+                      (location . "Sweden")
+                      (service . #t)
+                      (time-of-day . "Night")
+                      (tuning . #t)
+                      (wager . #f)
+                      (weather . "Mist"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "BMW E30 M3 Evo Rally"
+                  #s(racetime 0 4 32 472))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "BMW E30 M3 Evo Rally"
+                  #s(racetime 0 3 30 358))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f)))))))
