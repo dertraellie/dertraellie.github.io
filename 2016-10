@@ -4,19 +4,19 @@
           #s(event "daily" #s(date 2016 10 20) "149183")
           (#s(stage
               "Pant Mawr Reverse (S)"
-              #hasheq((name . "Pant Mawr Reverse (S)")
-                      (stage . "Pant Mawr Reverse (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction . #hasheq((Vehicle . ("Lancia Delta S4"))))
+                      (name . "Pant Mawr Reverse (S)")
                       (retry . #f)
-                      (location . "Wales")
                       (service . #t)
+                      (stage . "Pant Mawr Reverse (S)")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Wales")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Cloudy"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -37,19 +37,19 @@
           #s(event "daily2" #s(date 2016 10 9) "147902")
           (#s(stage
               "Frauenberg (L)"
-              #hasheq((name . "Frauenberg (L)")
-                      (stage . "Frauenberg (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction . #hasheq((Vehicle . ("Hyundai Rally"))))
+                      (name . "Frauenberg (L)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #t)
+                      (stage . "Frauenberg (L)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Overcast"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -70,21 +70,21 @@
           #s(event "daily" #s(date 2016 10 24) "150821")
           (#s(stage
               "Abies Koiláda (S)"
-              #hasheq((name . "Abies Koiláda (S)")
-                      (stage . "Abies Koiláda (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Audi Sport quattro Rallye"))))
+                      (name . "Abies Koiláda (S)")
                       (retry . #f)
-                      (location . "Greece")
                       (service . #t)
+                      (stage . "Abies Koiláda (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Greece")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -105,21 +105,21 @@
           #s(event "daily2" #s(date 2016 10 28) "150833")
           (#s(stage
               "Dyffryn Afon Reverse (S)"
-              #hasheq((name . "Dyffryn Afon Reverse (S)")
-                      (stage . "Dyffryn Afon Reverse (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Volkswagen Polo Rally"))))
+                      (name . "Dyffryn Afon Reverse (S)")
                       (retry . #f)
-                      (location . "Wales")
                       (service . #t)
+                      (stage . "Dyffryn Afon Reverse (S)")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Wales")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Cloudy"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -134,27 +134,229 @@
                   #s(player "playstationnetwork" "Eitrir" 518640)
                   #f
                   #f))))))
+      (#s(event "weekly2" #s(date 2016 10 31) "152679")
+       .
+       #s(event/results
+          #s(event "weekly2" #s(date 2016 10 31) "152679")
+          (#s(stage
+              "Geufron Forest (L)"
+              #hasheq((restart . #f)
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2000s.jpg"))))
+                      (name . "Geufron Forest (L)")
+                      (retry . #f)
+                      (service . #t)
+                      (stage . "Geufron Forest (L)")
+                      (time-of-day . "Morning")
+                      (checkpoint . #t)
+                      (tuning . #t)
+                      (location . "Wales")
+                      (engineers . #t)
+                      (wager . #f)
+                      (only-owned-vehicles . #t)
+                      (weather . "Rain"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Ford Focus RS WRC 2007"
+                  #s(racetime 0 6 53 333))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Ford Focus RS Rally 2001"
+                  #s(racetime 0 6 45 300))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f)))
+           #s(stage
+              "Bronfelen (L)"
+              #hasheq((restart . #f)
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2000s.jpg"))))
+                      (name . "Bronfelen (L)")
+                      (retry . #f)
+                      (service . #f)
+                      (stage . "Bronfelen (L)")
+                      (time-of-day . "Morning")
+                      (checkpoint . #f)
+                      (tuning . #f)
+                      (location . "Wales")
+                      (engineers . #t)
+                      (wager . #f)
+                      (only-owned-vehicles . #t)
+                      (weather . "Rain"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Ford Focus RS WRC 2007"
+                  #s(racetime 0 13 52 516))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Ford Focus RS Rally 2001"
+                  #s(racetime 0 13 25 67))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f)))
+           #s(stage
+              "Frauenberg (L)"
+              #hasheq((restart . #f)
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2000s.jpg"))))
+                      (name . "Frauenberg (L)")
+                      (retry . #f)
+                      (service . #t)
+                      (stage . "Frauenberg (L)")
+                      (time-of-day . "Morning")
+                      (checkpoint . #t)
+                      (tuning . #t)
+                      (location . "Germany")
+                      (engineers . #t)
+                      (wager . #f)
+                      (only-owned-vehicles . #t)
+                      (weather . "Clear"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Ford Focus RS WRC 2007"
+                  #s(racetime 0 20 56 66))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Ford Focus RS Rally 2001"
+                  #s(racetime 0 20 14 17))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f)))
+           #s(stage
+              "Ruschberg (L)"
+              #hasheq((restart . #f)
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2000s.jpg"))))
+                      (name . "Ruschberg (L)")
+                      (retry . #f)
+                      (service . #f)
+                      (stage . "Ruschberg (L)")
+                      (time-of-day . "Morning")
+                      (checkpoint . #f)
+                      (tuning . #f)
+                      (location . "Germany")
+                      (engineers . #t)
+                      (wager . #f)
+                      (only-owned-vehicles . #t)
+                      (weather . "Clear"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Ford Focus RS WRC 2007"
+                  #s(racetime 0 27 55 83))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Ford Focus RS Rally 2001"
+                  #s(racetime 0 27 20 800))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f)))
+           #s(stage
+              "Hämelahti (L)"
+              #hasheq((restart . #f)
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2000s.jpg"))))
+                      (name . "Hämelahti (L)")
+                      (retry . #f)
+                      (service . #t)
+                      (stage . "Hämelahti (L)")
+                      (time-of-day . "Night")
+                      (checkpoint . #t)
+                      (tuning . #t)
+                      (location . "Finland")
+                      (engineers . #t)
+                      (wager . #f)
+                      (only-owned-vehicles . #t)
+                      (weather . "Clear"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Ford Focus RS WRC 2007"
+                  #s(racetime 0 35 12 465))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Ford Focus RS Rally 2001"
+                  #s(racetime 0 34 29 632))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f)))
+           #s(stage
+              "Pitkäjärvi (L)"
+              #hasheq((restart . #f)
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2000s.jpg"))))
+                      (name . "Pitkäjärvi (L)")
+                      (retry . #f)
+                      (service . #f)
+                      (stage . "Pitkäjärvi (L)")
+                      (time-of-day . "Night")
+                      (checkpoint . #f)
+                      (tuning . #f)
+                      (location . "Finland")
+                      (engineers . #t)
+                      (wager . #f)
+                      (only-owned-vehicles . #t)
+                      (weather . "Clear"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Ford Focus RS WRC 2007"
+                  #s(racetime 0 43 19 228))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Ford Focus RS Rally 2001"
+                  #s(racetime 0 42 33 779))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f))))))
       (#s(event "daily2" #s(date 2016 10 19) "149190")
        .
        #s(event/results
           #s(event "daily2" #s(date 2016 10 19) "149190")
           (#s(stage
               "Paskuri (S)"
-              #hasheq((name . "Paskuri (S)")
-                      (stage . "Paskuri (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("BMW E30 M3 Evo Rally"))))
+                      (name . "Paskuri (S)")
                       (retry . #f)
-                      (location . "Finland")
                       (service . #t)
+                      (stage . "Paskuri (S)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #t)
+                      (location . "Finland")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Overcast"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -175,21 +377,21 @@
           #s(event "daily" #s(date 2016 10 18) "149181")
           (#s(stage
               "Pikes Peak (Mixed Surface) - Full Course (L)"
-              #hasheq((name . "Pikes Peak (Mixed Surface) - Full Course (L)")
-                      (stage . "Pikes Peak (Mixed Surface) - Full Course (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Peugeot 405 T16 Pikes Peak"))))
+                      (name . "Pikes Peak (Mixed Surface) - Full Course (L)")
                       (retry . #f)
-                      (location . "USA")
                       (service . #t)
+                      (stage . "Pikes Peak (Mixed Surface) - Full Course (L)")
                       (time-of-day . "Sunset")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "USA")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -210,21 +412,21 @@
           #s(event "daily" #s(date 2016 10 1) "143997")
           (#s(stage
               "Ransbysäter (L)"
-              #hasheq((name . "Ransbysäter (L)")
-                      (stage . "Ransbysäter (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Sierra Cosworth RS500"))))
+                      (name . "Ransbysäter (L)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Ransbysäter (L)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -245,21 +447,21 @@
           #s(event "daily2" #s(date 2016 10 23) "150828")
           (#s(stage
               "Frauenberg (L)"
-              #hasheq((name . "Frauenberg (L)")
-                      (stage . "Frauenberg (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("MINI Countryman Rally Edition"))))
+                      (name . "Frauenberg (L)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #t)
+                      (stage . "Frauenberg (L)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Clear"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
@@ -283,19 +485,19 @@
           #s(event "daily2" #s(date 2016 10 15) "147908")
           (#s(stage
               "Vallée descendante (L)"
-              #hasheq((name . "Vallée descendante (L)")
-                      (stage . "Vallée descendante (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction . #hasheq((Vehicle . ("Lancia Stratos"))))
+                      (name . "Vallée descendante (L)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #t)
+                      (stage . "Vallée descendante (L)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #t)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Snow"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
@@ -319,21 +521,21 @@
           #s(event "daily2" #s(date 2016 10 11) "147904")
           (#s(stage
               "Dyffryn Afon (S)"
-              #hasheq((name . "Dyffryn Afon (S)")
-                      (stage . "Dyffryn Afon (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("MINI Countryman Rally Edition"))))
+                      (name . "Dyffryn Afon (S)")
                       (retry . #f)
-                      (location . "Wales")
                       (service . #t)
+                      (stage . "Dyffryn Afon (S)")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #t)
+                      (location . "Wales")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Cloudy"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -354,21 +556,21 @@
           #s(event "daily" #s(date 2016 10 7) "145900")
           (#s(stage
               "Hell - Full Circuit"
-              #hasheq((name . "Hell - Full Circuit")
-                      (stage . "Hell - Full Circuit")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("MINI Countryman Rallycross"))))
+                      (name . "Hell - Full Circuit")
                       (retry . #f)
-                      (location . "Norway")
                       (service . #t)
+                      (stage . "Hell - Full Circuit")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Norway")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Rain"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -389,21 +591,21 @@
           #s(event "daily" #s(date 2016 10 31) "152665")
           (#s(stage
               "Pikes Peak (Mixed Surface) - Full Course (L)"
-              #hasheq((name . "Pikes Peak (Mixed Surface) - Full Course (L)")
-                      (stage . "Pikes Peak (Mixed Surface) - Full Course (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Peugeot 205 T16 Pikes Peak"))))
+                      (name . "Pikes Peak (Mixed Surface) - Full Course (L)")
                       (retry . #f)
-                      (location . "USA")
                       (service . #t)
+                      (stage . "Pikes Peak (Mixed Surface) - Full Course (L)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "USA")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Sunny"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -424,19 +626,19 @@
           #s(event "daily2" #s(date 2016 10 10) "147903")
           (#s(stage
               "Iso Oksjärvi (S)"
-              #hasheq((name . "Iso Oksjärvi (S)")
-                      (stage . "Iso Oksjärvi (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction . #hasheq((Vehicle . ("Ford RS200"))))
+                      (name . "Iso Oksjärvi (S)")
                       (retry . #f)
-                      (location . "Finland")
                       (service . #t)
+                      (stage . "Iso Oksjärvi (S)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Finland")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Rain"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -457,21 +659,21 @@
           #s(event "daily" #s(date 2016 10 2) "145895")
           (#s(stage
               "Pikes Peak (Gravel) - Full Course (L)"
-              #hasheq((name . "Pikes Peak (Gravel) - Full Course (L)")
-                      (stage . "Pikes Peak (Gravel) - Full Course (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Peugeot 205 T16 Pikes Peak"))))
+                      (name . "Pikes Peak (Gravel) - Full Course (L)")
                       (retry . #f)
-                      (location . "USA")
                       (service . #t)
+                      (stage . "Pikes Peak (Gravel) - Full Course (L)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "USA")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Rain"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -492,21 +694,21 @@
           #s(event "daily" #s(date 2016 10 17) "149180")
           (#s(stage
               "Höljes - Full Circuit"
-              #hasheq((name . "Höljes - Full Circuit")
-                      (stage . "Höljes - Full Circuit")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Opel Corsa Super 1600"))))
+                      (name . "Höljes - Full Circuit")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Höljes - Full Circuit")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Rain"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -527,21 +729,21 @@
           #s(event "daily2" #s(date 2016 10 2) "145903")
           (#s(stage
               "Kakaristo (L)"
-              #hasheq((name . "Kakaristo (L)")
-                      (stage . "Kakaristo (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Lancia Delta HF Integrale"))))
+                      (name . "Kakaristo (L)")
                       (retry . #f)
-                      (location . "Finland")
                       (service . #t)
+                      (stage . "Kakaristo (L)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Finland")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Overcast"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -562,21 +764,21 @@
           #s(event "daily2" #s(date 2016 10 24) "150829")
           (#s(stage
               "Bidno Moorland (S)"
-              #hasheq((name . "Bidno Moorland (S)")
-                      (stage . "Bidno Moorland (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Mitsubishi Lancer Evolution X"))))
+                      (name . "Bidno Moorland (S)")
                       (retry . #f)
-                      (location . "Wales")
                       (service . #t)
+                      (stage . "Bidno Moorland (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #t)
+                      (location . "Wales")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Rain"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -597,21 +799,21 @@
           #s(event "daily2" #s(date 2016 10 26) "150831")
           (#s(stage
               "Ypsona tou Dasos (S)"
-              #hasheq((name . "Ypsona tou Dasos (S)")
-                      (stage . "Ypsona tou Dasos (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Subaru Impreza 2001"))))
+                      (name . "Ypsona tou Dasos (S)")
                       (retry . #f)
-                      (location . "Greece")
                       (service . #t)
+                      (stage . "Ypsona tou Dasos (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Greece")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -632,21 +834,21 @@
           #s(event "daily" #s(date 2016 10 23) "150820")
           (#s(stage
               "Pitkäjärvi (L)"
-              #hasheq((name . "Pitkäjärvi (L)")
-                      (stage . "Pitkäjärvi (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Citroën C4 Rally 2010"))))
+                      (name . "Pitkäjärvi (L)")
                       (retry . #f)
-                      (location . "Finland")
                       (service . #t)
+                      (stage . "Pitkäjärvi (L)")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Finland")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Sunny"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
@@ -670,21 +872,21 @@
           #s(event "daily2" #s(date 2016 10 5) "145906")
           (#s(stage
               "Björklangen (S)"
-              #hasheq((name . "Björklangen (S)")
-                      (stage . "Björklangen (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("BMW E30 M3 Evo Rally"))))
+                      (name . "Björklangen (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Björklangen (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -705,21 +907,21 @@
           #s(event "daily2" #s(date 2016 10 20) "149191")
           (#s(stage
               "Col de Turini sprint en Montée (S)"
-              #hasheq((name . "Col de Turini sprint en Montée (S)")
-                      (stage . "Col de Turini sprint en Montée (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Seat Ibiza Kitcar"))))
+                      (name . "Col de Turini sprint en Montée (S)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #t)
+                      (stage . "Col de Turini sprint en Montée (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Snow"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -740,21 +942,21 @@
           #s(event "daily2" #s(date 2016 10 17) "149188")
           (#s(stage
               "Ourea Spevsi (S)"
-              #hasheq((name . "Ourea Spevsi (S)")
-                      (stage . "Ourea Spevsi (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Peugeot 205 T16 Evo 2"))))
+                      (name . "Ourea Spevsi (S)")
                       (retry . #f)
-                      (location . "Greece")
                       (service . #t)
+                      (stage . "Ourea Spevsi (S)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Greece")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -775,21 +977,21 @@
           #s(event "daily" #s(date 2016 10 4) "145897")
           (#s(stage
               "Fferm Wynt Reverse (S)"
-              #hasheq((name . "Fferm Wynt Reverse (S)")
-                      (stage . "Fferm Wynt Reverse (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Peugeot 205 T16 Evo 2"))))
+                      (name . "Fferm Wynt Reverse (S)")
                       (retry . #f)
-                      (location . "Wales")
                       (service . #t)
+                      (stage . "Fferm Wynt Reverse (S)")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Wales")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Cloudy"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -804,25 +1006,227 @@
                   #s(player "playstationnetwork" "Eitrir" 518640)
                   #f
                   #f))))))
+      (#s(event "weekly" #s(date 2016 10 31) "152671")
+       .
+       #s(event/results
+          #s(event "weekly" #s(date 2016 10 31) "152671")
+          (#s(stage
+              "Ransbysäter (L)"
+              #hasheq((restart . #f)
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2000s.jpg"))))
+                      (name . "Ransbysäter (L)")
+                      (retry . #f)
+                      (service . #t)
+                      (stage . "Ransbysäter (L)")
+                      (time-of-day . "Afternoon")
+                      (checkpoint . #t)
+                      (tuning . #t)
+                      (location . "Sweden")
+                      (engineers . #t)
+                      (wager . #f)
+                      (only-owned-vehicles . #t)
+                      (weather . "Mist"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Ford Focus RS WRC 2007"
+                  #s(racetime 0 7 36 548))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Ford Focus RS Rally 2001"
+                  #s(racetime 0 7 11 932))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f)))
+           #s(stage
+              "Skogsrallyt (S)"
+              #hasheq((restart . #f)
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2000s.jpg"))))
+                      (name . "Skogsrallyt (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (stage . "Skogsrallyt (S)")
+                      (time-of-day . "Afternoon")
+                      (checkpoint . #f)
+                      (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
+                      (wager . #f)
+                      (only-owned-vehicles . #t)
+                      (weather . "Mist"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Ford Focus RS WRC 2007"
+                  #s(racetime 0 11 0 756))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Ford Focus RS Rally 2001"
+                  #s(racetime 0 10 17 674))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f)))
+           #s(stage
+              "Stor-jangen Sprint Reverse (S)"
+              #hasheq((restart . #f)
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2000s.jpg"))))
+                      (name . "Stor-jangen Sprint Reverse (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (stage . "Stor-jangen Sprint Reverse (S)")
+                      (time-of-day . "Afternoon")
+                      (checkpoint . #t)
+                      (tuning . #t)
+                      (location . "Sweden")
+                      (engineers . #t)
+                      (wager . #f)
+                      (only-owned-vehicles . #t)
+                      (weather . "Snow"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Ford Focus RS WRC 2007"
+                  #s(racetime 0 15 4 912))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Ford Focus RS Rally 2001"
+                  #s(racetime 0 14 31 364))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f)))
+           #s(stage
+              "Älgsjön Sprint (S)"
+              #hasheq((restart . #f)
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2000s.jpg"))))
+                      (name . "Älgsjön Sprint (S)")
+                      (retry . #f)
+                      (service . #f)
+                      (stage . "Älgsjön Sprint (S)")
+                      (time-of-day . "Afternoon")
+                      (checkpoint . #f)
+                      (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
+                      (wager . #f)
+                      (only-owned-vehicles . #t)
+                      (weather . "Cloudy"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Ford Focus RS WRC 2007"
+                  #s(racetime 0 18 31 737))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Ford Focus RS Rally 2001"
+                  #s(racetime 0 17 51 605))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f)))
+           #s(stage
+              "Stor-jangen Sprint (S)"
+              #hasheq((restart . #f)
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2000s.jpg"))))
+                      (name . "Stor-jangen Sprint (S)")
+                      (retry . #f)
+                      (service . #t)
+                      (stage . "Stor-jangen Sprint (S)")
+                      (time-of-day . "Afternoon")
+                      (checkpoint . #t)
+                      (tuning . #t)
+                      (location . "Sweden")
+                      (engineers . #t)
+                      (wager . #f)
+                      (only-owned-vehicles . #t)
+                      (weather . "Cloudy"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Ford Focus RS WRC 2007"
+                  #s(racetime 0 22 28 944))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Ford Focus RS Rally 2001"
+                  #s(racetime 0 21 47 812))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f)))
+           #s(stage
+              "Norraskoga (L)"
+              #hasheq((restart . #f)
+                      (restriction
+                       .
+                       #hasheq((VehicleClass
+                                .
+                                ("/Content/images/vehicle/class/rally_wrc_2000s.jpg"))))
+                      (name . "Norraskoga (L)")
+                      (retry . #f)
+                      (service . #f)
+                      (stage . "Norraskoga (L)")
+                      (time-of-day . "Night")
+                      (checkpoint . #f)
+                      (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
+                      (wager . #f)
+                      (only-owned-vehicles . #t)
+                      (weather . "Mist"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Ford Focus RS WRC 2007"
+                  #s(racetime 0 29 33 793))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Ford Focus RS Rally 2001"
+                  #s(racetime 0 28 41 278))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f))))))
       (#s(event "daily2" #s(date 2016 10 25) "150830")
        .
        #s(event/results
           #s(event "daily2" #s(date 2016 10 25) "150830")
           (#s(stage
               "Östra Hinnsjön (S)"
-              #hasheq((name . "Östra Hinnsjön (S)")
-                      (stage . "Östra Hinnsjön (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction . #hasheq((Vehicle . ("Lancia 037 Evo 2"))))
+                      (name . "Östra Hinnsjön (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Östra Hinnsjön (S)")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Sunny"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -843,23 +1247,23 @@
           #s(event "weekly" #s(date 2016 10 3) "145902")
           (#s(stage
               "Hammerstein (L)"
-              #hasheq((name . "Hammerstein (L)")
-                      (stage . "Hammerstein (L)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_r_4.jpg"))))
+                      (name . "Hammerstein (L)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #t)
+                      (stage . "Hammerstein (L)")
                       (time-of-day . "Morning")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -876,23 +1280,23 @@
                   #f)))
            #s(stage
               "Verbundsring Reverse (S)"
-              #hasheq((name . "Verbundsring Reverse (S)")
-                      (stage . "Verbundsring Reverse (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_r_4.jpg"))))
+                      (name . "Verbundsring Reverse (S)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #f)
+                      (stage . "Verbundsring Reverse (S)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -909,23 +1313,23 @@
                   #f)))
            #s(stage
               "Flugzeugring Reverse (S)"
-              #hasheq((name . "Flugzeugring Reverse (S)")
-                      (stage . "Flugzeugring Reverse (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_r_4.jpg"))))
+                      (name . "Flugzeugring Reverse (S)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #t)
+                      (stage . "Flugzeugring Reverse (S)")
                       (time-of-day . "Morning")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -942,23 +1346,23 @@
                   #f)))
            #s(stage
               "Verbundsring (S)"
-              #hasheq((name . "Verbundsring (S)")
-                      (stage . "Verbundsring (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_r_4.jpg"))))
+                      (name . "Verbundsring (S)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #f)
+                      (stage . "Verbundsring (S)")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -975,23 +1379,23 @@
                   #f)))
            #s(stage
               "Flugzeugring (S)"
-              #hasheq((name . "Flugzeugring (S)")
-                      (stage . "Flugzeugring (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_r_4.jpg"))))
+                      (name . "Flugzeugring (S)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #t)
+                      (stage . "Flugzeugring (S)")
                       (time-of-day . "Midday")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1008,23 +1412,23 @@
                   #f)))
            #s(stage
               "Ruschberg (L)"
-              #hasheq((name . "Ruschberg (L)")
-                      (stage . "Ruschberg (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_r_4.jpg"))))
+                      (name . "Ruschberg (L)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #f)
+                      (stage . "Ruschberg (L)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1045,21 +1449,21 @@
           #s(event "daily2" #s(date 2016 10 6) "145907")
           (#s(stage
               "Dyffryn Afon (S)"
-              #hasheq((name . "Dyffryn Afon (S)")
-                      (stage . "Dyffryn Afon (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Opel Kadett GT/E 16v"))))
+                      (name . "Dyffryn Afon (S)")
                       (retry . #f)
-                      (location . "Wales")
                       (service . #t)
+                      (stage . "Dyffryn Afon (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Wales")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Overcast"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1080,21 +1484,21 @@
           #s(event "daily2" #s(date 2016 10 13) "147906")
           (#s(stage
               "Bidno Moorland Reverse (S)"
-              #hasheq((name . "Bidno Moorland Reverse (S)")
-                      (stage . "Bidno Moorland Reverse (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Volkswagen Polo Rally"))))
+                      (name . "Bidno Moorland Reverse (S)")
                       (retry . #f)
-                      (location . "Wales")
                       (service . #t)
+                      (stage . "Bidno Moorland Reverse (S)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Wales")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Overcast"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1115,21 +1519,21 @@
           #s(event "daily" #s(date 2016 10 22) "149185")
           (#s(stage
               "Sweet Lamb (L)"
-              #hasheq((name . "Sweet Lamb (L)")
-                      (stage . "Sweet Lamb (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Fiesta RS Rally"))))
+                      (name . "Sweet Lamb (L)")
                       (retry . #f)
-                      (location . "Wales")
                       (service . #t)
+                      (stage . "Sweet Lamb (L)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Wales")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Rain"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1150,23 +1554,23 @@
           #s(event "monthly" #s(date 2016 10 1) "31562")
           (#s(stage
               "Hamra (L)"
-              #hasheq((name . "Hamra (L)")
-                      (stage . "Hamra (L)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Hamra (L)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Hamra (L)")
                       (time-of-day . "Midday")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Sunny"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
@@ -1186,23 +1590,23 @@
                   #f)))
            #s(stage
               "Älgsjön (S)"
-              #hasheq((name . "Älgsjön (S)")
-                      (stage . "Älgsjön (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Älgsjön (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #f)
+                      (stage . "Älgsjön (S)")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Sunny"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
@@ -1222,23 +1626,23 @@
                   #f)))
            #s(stage
               "Björklangen (S)"
-              #hasheq((name . "Björklangen (S)")
-                      (stage . "Björklangen (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Björklangen (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Björklangen (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Cloudy"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1255,23 +1659,23 @@
                   #f)))
            #s(stage
               "Elgsjön (S)"
-              #hasheq((name . "Elgsjön (S)")
-                      (stage . "Elgsjön (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Elgsjön (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #f)
+                      (stage . "Elgsjön (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Cloudy"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1288,23 +1692,23 @@
                   #f)))
            #s(stage
               "Östra Hinnsjön (S)"
-              #hasheq((name . "Östra Hinnsjön (S)")
-                      (stage . "Östra Hinnsjön (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Östra Hinnsjön (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Östra Hinnsjön (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1321,23 +1725,23 @@
                   #f)))
            #s(stage
               "Lysvik (L)"
-              #hasheq((name . "Lysvik (L)")
-                      (stage . "Lysvik (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Lysvik (L)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #f)
+                      (stage . "Lysvik (L)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Overcast"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1354,23 +1758,23 @@
                   #f)))
            #s(stage
               "Waldaufstieg (S)"
-              #hasheq((name . "Waldaufstieg (S)")
-                      (stage . "Waldaufstieg (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Waldaufstieg (S)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #t)
+                      (stage . "Waldaufstieg (S)")
                       (time-of-day . "Morning")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1387,23 +1791,23 @@
                   #f)))
            #s(stage
               "Kreuzungsring (S)"
-              #hasheq((name . "Kreuzungsring (S)")
-                      (stage . "Kreuzungsring (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Kreuzungsring (S)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #f)
+                      (stage . "Kreuzungsring (S)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1420,23 +1824,23 @@
                   #f)))
            #s(stage
               "Frauenberg (L)"
-              #hasheq((name . "Frauenberg (L)")
-                      (stage . "Frauenberg (L)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Frauenberg (L)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #t)
+                      (stage . "Frauenberg (L)")
                       (time-of-day . "Morning")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Overcast"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1453,23 +1857,23 @@
                   #f)))
            #s(stage
               "Oberstein (L)"
-              #hasheq((name . "Oberstein (L)")
-                      (stage . "Oberstein (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Oberstein (L)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #f)
+                      (stage . "Oberstein (L)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Rain"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1486,23 +1890,23 @@
                   #f)))
            #s(stage
               "Waldabstieg (S)"
-              #hasheq((name . "Waldabstieg (S)")
-                      (stage . "Waldabstieg (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Waldabstieg (S)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #t)
+                      (stage . "Waldabstieg (S)")
                       (time-of-day . "Morning")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1519,23 +1923,23 @@
                   #f)))
            #s(stage
               "Kreuzungsring Reverse (S)"
-              #hasheq((name . "Kreuzungsring Reverse (S)")
-                      (stage . "Kreuzungsring Reverse (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Kreuzungsring Reverse (S)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #f)
+                      (stage . "Kreuzungsring Reverse (S)")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1552,23 +1956,23 @@
                   #f)))
            #s(stage
               "Gordolon - Courte montée (S)"
-              #hasheq((name . "Gordolon - Courte montée (S)")
-                      (stage . "Gordolon - Courte montée (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Gordolon - Courte montée (S)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #t)
+                      (stage . "Gordolon - Courte montée (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1585,23 +1989,23 @@
                   #f)))
            #s(stage
               "Col de Turini sprint en Montée (S)"
-              #hasheq((name . "Col de Turini sprint en Montée (S)")
-                      (stage . "Col de Turini sprint en Montée (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Col de Turini sprint en Montée (S)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #f)
+                      (stage . "Col de Turini sprint en Montée (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1618,23 +2022,23 @@
                   #f)))
            #s(stage
               "Col de Turini Départ (L)"
-              #hasheq((name . "Col de Turini Départ (L)")
-                      (stage . "Col de Turini Départ (L)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Col de Turini Départ (L)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #t)
+                      (stage . "Col de Turini Départ (L)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Snow"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1651,23 +2055,23 @@
                   #f)))
            #s(stage
               "Pra d’Alart (L)"
-              #hasheq((name . "Pra d’Alart (L)")
-                      (stage . "Pra d’Alart (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Pra d’Alart (L)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #f)
+                      (stage . "Pra d’Alart (L)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1684,23 +2088,23 @@
                   #f)))
            #s(stage
               "Col de Turini - Descente (S)"
-              #hasheq((name . "Col de Turini - Descente (S)")
-                      (stage . "Col de Turini - Descente (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Col de Turini - Descente (S)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #t)
+                      (stage . "Col de Turini - Descente (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1717,23 +2121,23 @@
                   #f)))
            #s(stage
               "Col de Turini -  Sprint en descente (S)"
-              #hasheq((name . "Col de Turini -  Sprint en descente (S)")
-                      (stage . "Col de Turini -  Sprint en descente (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Col de Turini -  Sprint en descente (S)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #f)
+                      (stage . "Col de Turini -  Sprint en descente (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1750,23 +2154,23 @@
                   #f)))
            #s(stage
               "Perasma Platani (L)"
-              #hasheq((name . "Perasma Platani (L)")
-                      (stage . "Perasma Platani (L)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Perasma Platani (L)")
                       (retry . #f)
-                      (location . "Greece")
                       (service . #t)
+                      (stage . "Perasma Platani (L)")
                       (time-of-day . "Night")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Greece")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1783,23 +2187,23 @@
                   #f)))
            #s(stage
               "Ypsona tou Dasos (S)"
-              #hasheq((name . "Ypsona tou Dasos (S)")
-                      (stage . "Ypsona tou Dasos (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Ypsona tou Dasos (S)")
                       (retry . #f)
-                      (location . "Greece")
                       (service . #f)
+                      (stage . "Ypsona tou Dasos (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Greece")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1816,23 +2220,23 @@
                   #f)))
            #s(stage
               "Pedines Epidaxi (S)"
-              #hasheq((name . "Pedines Epidaxi (S)")
-                      (stage . "Pedines Epidaxi (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Pedines Epidaxi (S)")
                       (retry . #f)
-                      (location . "Greece")
                       (service . #t)
+                      (stage . "Pedines Epidaxi (S)")
                       (time-of-day . "Morning")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Greece")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1849,23 +2253,23 @@
                   #f)))
            #s(stage
               "Ourea Spevsi (S)"
-              #hasheq((name . "Ourea Spevsi (S)")
-                      (stage . "Ourea Spevsi (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Ourea Spevsi (S)")
                       (retry . #f)
-                      (location . "Greece")
                       (service . #f)
+                      (stage . "Ourea Spevsi (S)")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Greece")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Sunny"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1882,23 +2286,23 @@
                   #f)))
            #s(stage
               "Abies Koiláda (S)"
-              #hasheq((name . "Abies Koiláda (S)")
-                      (stage . "Abies Koiláda (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Abies Koiláda (S)")
                       (retry . #f)
-                      (location . "Greece")
                       (service . #t)
+                      (stage . "Abies Koiláda (S)")
                       (time-of-day . "Midday")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Greece")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Sunny"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1915,23 +2319,23 @@
                   #f)))
            #s(stage
               "Tsiristra Théa (L)"
-              #hasheq((name . "Tsiristra Théa (L)")
-                      (stage . "Tsiristra Théa (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_a.jpg"))))
+                      (name . "Tsiristra Théa (L)")
                       (retry . #f)
-                      (location . "Greece")
                       (service . #f)
+                      (stage . "Tsiristra Théa (L)")
                       (time-of-day . "Sunset")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Greece")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1952,19 +2356,19 @@
           #s(event "daily" #s(date 2016 10 13) "147898")
           (#s(stage
               "Stor-jangen Sprint (S)"
-              #hasheq((name . "Stor-jangen Sprint (S)")
-                      (stage . "Stor-jangen Sprint (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction . #hasheq((Vehicle . ("Renault 5 Turbo"))))
+                      (name . "Stor-jangen Sprint (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Stor-jangen Sprint (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Overcast"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -1985,21 +2389,21 @@
           #s(event "daily2" #s(date 2016 10 29) "150834")
           (#s(stage
               "Pra d’Alart (L)"
-              #hasheq((name . "Pra d’Alart (L)")
-                      (stage . "Pra d’Alart (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Escort RS Cosworth"))))
+                      (name . "Pra d’Alart (L)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #t)
+                      (stage . "Pra d’Alart (L)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2020,21 +2424,21 @@
           #s(event "daily2" #s(date 2016 10 30) "152672")
           (#s(stage
               "Frauenberg (L)"
-              #hasheq((name . "Frauenberg (L)")
-                      (stage . "Frauenberg (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Subaru Impreza WRX STI 2011"))))
+                      (name . "Frauenberg (L)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #t)
+                      (stage . "Frauenberg (L)")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2055,23 +2459,23 @@
           #s(event "weekly2" #s(date 2016 10 3) "145910")
           (#s(stage
               "Sweet Lamb (L)"
-              #hasheq((name . "Sweet Lamb (L)")
-                      (stage . "Sweet Lamb (L)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1970s.jpg"))))
+                      (name . "Sweet Lamb (L)")
                       (retry . #f)
-                      (location . "Wales")
                       (service . #t)
+                      (stage . "Sweet Lamb (L)")
                       (time-of-day . "Morning")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Wales")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Overcast"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2088,23 +2492,23 @@
                   #f)))
            #s(stage
               "River Severn Valley (L)"
-              #hasheq((name . "River Severn Valley (L)")
-                      (stage . "River Severn Valley (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1970s.jpg"))))
+                      (name . "River Severn Valley (L)")
                       (retry . #f)
-                      (location . "Wales")
                       (service . #f)
+                      (stage . "River Severn Valley (L)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Wales")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Overcast"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2121,23 +2525,23 @@
                   #f)))
            #s(stage
               "Oberstein (L)"
-              #hasheq((name . "Oberstein (L)")
-                      (stage . "Oberstein (L)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1970s.jpg"))))
+                      (name . "Oberstein (L)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #t)
+                      (stage . "Oberstein (L)")
                       (time-of-day . "Morning")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2154,23 +2558,23 @@
                   #f)))
            #s(stage
               "Hammerstein (L)"
-              #hasheq((name . "Hammerstein (L)")
-                      (stage . "Hammerstein (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1970s.jpg"))))
+                      (name . "Hammerstein (L)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #f)
+                      (stage . "Hammerstein (L)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2187,23 +2591,23 @@
                   #f)))
            #s(stage
               "Ransbysäter (L)"
-              #hasheq((name . "Ransbysäter (L)")
-                      (stage . "Ransbysäter (L)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1970s.jpg"))))
+                      (name . "Ransbysäter (L)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Ransbysäter (L)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Cloudy"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2220,23 +2624,23 @@
                   #f)))
            #s(stage
               "Hamra (L)"
-              #hasheq((name . "Hamra (L)")
-                      (stage . "Hamra (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1970s.jpg"))))
+                      (name . "Hamra (L)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #f)
+                      (stage . "Hamra (L)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Cloudy"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2257,21 +2661,21 @@
           #s(event "daily" #s(date 2016 10 8) "145901")
           (#s(stage
               "River Severn Valley (L)"
-              #hasheq((name . "River Severn Valley (L)")
-                      (stage . "River Severn Valley (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Subaru Impreza 1995"))))
+                      (name . "River Severn Valley (L)")
                       (retry . #f)
-                      (location . "Wales")
                       (service . #t)
+                      (stage . "River Severn Valley (L)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Wales")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Rain"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2292,21 +2696,21 @@
           #s(event "daily" #s(date 2016 10 6) "145899")
           (#s(stage
               "Elgsjön (S)"
-              #hasheq((name . "Elgsjön (S)")
-                      (stage . "Elgsjön (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Renault Alpine A110"))))
+                      (name . "Elgsjön (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Elgsjön (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Snow"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2327,21 +2731,21 @@
           #s(event "daily" #s(date 2016 10 26) "150823")
           (#s(stage
               "Höljes - Full Circuit"
-              #hasheq((name . "Höljes - Full Circuit")
-                      (stage . "Höljes - Full Circuit")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Renault Clio S1600"))))
+                      (name . "Höljes - Full Circuit")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Höljes - Full Circuit")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2362,19 +2766,19 @@
           #s(event "daily2" #s(date 2016 10 27) "150832")
           (#s(stage
               "Flugzeugring (S)"
-              #hasheq((name . "Flugzeugring (S)")
-                      (stage . "Flugzeugring (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction . #hasheq((Vehicle . ("Renault 5 Turbo"))))
+                      (name . "Flugzeugring (S)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #t)
+                      (stage . "Flugzeugring (S)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #t)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Overcast"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2395,21 +2799,21 @@
           #s(event "daily" #s(date 2016 10 30) "152664")
           (#s(stage
               "Hamra (L)"
-              #hasheq((name . "Hamra (L)")
-                      (stage . "Hamra (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Focus RS Rally 2001"))))
+                      (name . "Hamra (L)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Hamra (L)")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Sunny"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2430,21 +2834,21 @@
           #s(event "daily" #s(date 2016 10 19) "149182")
           (#s(stage
               "Verbundsring Reverse (S)"
-              #hasheq((name . "Verbundsring Reverse (S)")
-                      (stage . "Verbundsring Reverse (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Sierra Cosworth RS500"))))
+                      (name . "Verbundsring Reverse (S)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #t)
+                      (stage . "Verbundsring Reverse (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2465,23 +2869,23 @@
           #s(event "weekly" #s(date 2016 10 10) "147901")
           (#s(stage
               "Kakaristo (L)"
-              #hasheq((name . "Kakaristo (L)")
-                      (stage . "Kakaristo (L)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (name . "Kakaristo (L)")
                       (retry . #f)
-                      (location . "Finland")
                       (service . #t)
+                      (stage . "Kakaristo (L)")
                       (time-of-day . "Morning")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Finland")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Rain"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
@@ -2501,23 +2905,23 @@
                   #f)))
            #s(stage
               "Oksala (S)"
-              #hasheq((name . "Oksala (S)")
-                      (stage . "Oksala (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (name . "Oksala (S)")
                       (retry . #f)
-                      (location . "Finland")
                       (service . #f)
+                      (stage . "Oksala (S)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Finland")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Overcast"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
@@ -2537,23 +2941,23 @@
                   #f)))
            #s(stage
               "Järvenkylä (S)"
-              #hasheq((name . "Järvenkylä (S)")
-                      (stage . "Järvenkylä (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (name . "Järvenkylä (S)")
                       (retry . #f)
-                      (location . "Finland")
                       (service . #t)
+                      (stage . "Järvenkylä (S)")
                       (time-of-day . "Midday")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Finland")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Sunny"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
@@ -2573,23 +2977,23 @@
                   #f)))
            #s(stage
               "Iso Oksjärvi (S)"
-              #hasheq((name . "Iso Oksjärvi (S)")
-                      (stage . "Iso Oksjärvi (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (name . "Iso Oksjärvi (S)")
                       (retry . #f)
-                      (location . "Finland")
                       (service . #f)
+                      (stage . "Iso Oksjärvi (S)")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Finland")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Sunny"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
@@ -2609,23 +3013,23 @@
                   #f)))
            #s(stage
               "Kotajärvi (S)"
-              #hasheq((name . "Kotajärvi (S)")
-                      (stage . "Kotajärvi (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (name . "Kotajärvi (S)")
                       (retry . #f)
-                      (location . "Finland")
                       (service . #t)
+                      (stage . "Kotajärvi (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Finland")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Clear"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
@@ -2645,23 +3049,23 @@
                   #f)))
            #s(stage
               "Pitkäjärvi (L)"
-              #hasheq((name . "Pitkäjärvi (L)")
-                      (stage . "Pitkäjärvi (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (name . "Pitkäjärvi (L)")
                       (retry . #f)
-                      (location . "Finland")
                       (service . #f)
+                      (stage . "Pitkäjärvi (L)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Finland")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Clear"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
@@ -2685,21 +3089,21 @@
           #s(event "daily2" #s(date 2016 10 4) "145905")
           (#s(stage
               "Dyffryn Afon (S)"
-              #hasheq((name . "Dyffryn Afon (S)")
-                      (stage . "Dyffryn Afon (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Subaru Impreza WRX STI 2011"))))
+                      (name . "Dyffryn Afon (S)")
                       (retry . #f)
-                      (location . "Wales")
                       (service . #t)
+                      (stage . "Dyffryn Afon (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Wales")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Rain"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2720,21 +3124,21 @@
           #s(event "daily2" #s(date 2016 10 21) "149192")
           (#s(stage
               "Approche du Col de Turini - Montée (S)"
-              #hasheq((name . "Approche du Col de Turini - Montée (S)")
-                      (stage . "Approche du Col de Turini - Montée (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Opel Kadett GT/E 16v"))))
+                      (name . "Approche du Col de Turini - Montée (S)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #t)
+                      (stage . "Approche du Col de Turini - Montée (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #t)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2755,21 +3159,21 @@
           #s(event "daily" #s(date 2016 10 5) "145898")
           (#s(stage
               "Verbundsring Reverse (S)"
-              #hasheq((name . "Verbundsring Reverse (S)")
-                      (stage . "Verbundsring Reverse (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Seat Ibiza Kitcar"))))
+                      (name . "Verbundsring Reverse (S)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #t)
+                      (stage . "Verbundsring Reverse (S)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Overcast"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2790,21 +3194,21 @@
           #s(event "daily2" #s(date 2016 10 16) "149187")
           (#s(stage
               "Norraskoga (L)"
-              #hasheq((name . "Norraskoga (L)")
-                      (stage . "Norraskoga (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Focus RS WRC 2007"))))
+                      (name . "Norraskoga (L)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Norraskoga (L)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2825,19 +3229,19 @@
           #s(event "daily" #s(date 2016 10 29) "150826")
           (#s(stage
               "Kakaristo (L)"
-              #hasheq((name . "Kakaristo (L)")
-                      (stage . "Kakaristo (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction . #hasheq((Vehicle . ("Ford RS200"))))
+                      (name . "Kakaristo (L)")
                       (retry . #f)
-                      (location . "Finland")
                       (service . #t)
+                      (stage . "Kakaristo (L)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Finland")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Rain"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2858,21 +3262,21 @@
           #s(event "daily" #s(date 2016 10 10) "147895")
           (#s(stage
               "Pant Mawr (S)"
-              #hasheq((name . "Pant Mawr (S)")
-                      (stage . "Pant Mawr (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Escort Mk II"))))
+                      (name . "Pant Mawr (S)")
                       (retry . #f)
-                      (location . "Wales")
                       (service . #t)
+                      (stage . "Pant Mawr (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Wales")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Rain"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2893,21 +3297,21 @@
           #s(event "daily" #s(date 2016 10 21) "149184")
           (#s(stage
               "Approche du Col de Turini - Montée (S)"
-              #hasheq((name . "Approche du Col de Turini - Montée (S)")
-                      (stage . "Approche du Col de Turini - Montée (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Lancia Delta HF Integrale"))))
+                      (name . "Approche du Col de Turini - Montée (S)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #t)
+                      (stage . "Approche du Col de Turini - Montée (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Wet"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2928,21 +3332,21 @@
           #s(event "daily2" #s(date 2016 10 14) "147907")
           (#s(stage
               "Bidno Moorland (S)"
-              #hasheq((name . "Bidno Moorland (S)")
-                      (stage . "Bidno Moorland (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Escort RS Cosworth"))))
+                      (name . "Bidno Moorland (S)")
                       (retry . #f)
-                      (location . "Wales")
                       (service . #t)
+                      (stage . "Bidno Moorland (S)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #t)
+                      (location . "Wales")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Rain"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -2963,21 +3367,21 @@
           #s(event "daily" #s(date 2016 10 15) "147900")
           (#s(stage
               "Hell - Full Circuit"
-              #hasheq((name . "Hell - Full Circuit")
-                      (stage . "Hell - Full Circuit")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Mini Classic Rallycross"))))
+                      (name . "Hell - Full Circuit")
                       (retry . #f)
-                      (location . "Norway")
                       (service . #t)
+                      (stage . "Hell - Full Circuit")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Norway")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Sunny"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
@@ -3001,19 +3405,19 @@
           #s(event "daily" #s(date 2016 10 9) "147894")
           (#s(stage
               "Hammerstein (L)"
-              #hasheq((name . "Hammerstein (L)")
-                      (stage . "Hammerstein (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction . #hasheq((Vehicle . ("Opel Manta 400"))))
+                      (name . "Hammerstein (L)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #t)
+                      (stage . "Hammerstein (L)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Clear"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
@@ -3037,19 +3441,19 @@
           #s(event "daily2" #s(date 2016 10 1) "144005")
           (#s(stage
               "Tsiristra Théa (L)"
-              #hasheq((name . "Tsiristra Théa (L)")
-                      (stage . "Tsiristra Théa (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction . #hasheq((Vehicle . ("Lancia Delta S4"))))
+                      (name . "Tsiristra Théa (L)")
                       (retry . #f)
-                      (location . "Greece")
                       (service . #t)
+                      (stage . "Tsiristra Théa (L)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Greece")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Clear"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3070,23 +3474,23 @@
           #s(event "weekly2" #s(date 2016 10 17) "149194")
           (#s(stage
               "Perasma Platani (L)"
-              #hasheq((name . "Perasma Platani (L)")
-                      (stage . "Perasma Platani (L)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1960s.jpg"))))
+                      (name . "Perasma Platani (L)")
                       (retry . #f)
-                      (location . "Greece")
                       (service . #t)
+                      (stage . "Perasma Platani (L)")
                       (time-of-day . "Midday")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Greece")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Sunny"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3103,23 +3507,23 @@
                   #f)))
            #s(stage
               "Anodou Farmakas (L)"
-              #hasheq((name . "Anodou Farmakas (L)")
-                      (stage . "Anodou Farmakas (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1960s.jpg"))))
+                      (name . "Anodou Farmakas (L)")
                       (retry . #f)
-                      (location . "Greece")
                       (service . #f)
+                      (stage . "Anodou Farmakas (L)")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Greece")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Sunny"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3136,23 +3540,23 @@
                   #f)))
            #s(stage
               "Kontinjärvi (L)"
-              #hasheq((name . "Kontinjärvi (L)")
-                      (stage . "Kontinjärvi (L)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1960s.jpg"))))
+                      (name . "Kontinjärvi (L)")
                       (retry . #f)
-                      (location . "Finland")
                       (service . #t)
+                      (stage . "Kontinjärvi (L)")
                       (time-of-day . "Midday")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Finland")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Sunny"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3169,23 +3573,23 @@
                   #f)))
            #s(stage
               "Kakaristo (L)"
-              #hasheq((name . "Kakaristo (L)")
-                      (stage . "Kakaristo (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1960s.jpg"))))
+                      (name . "Kakaristo (L)")
                       (retry . #f)
-                      (location . "Finland")
                       (service . #f)
+                      (stage . "Kakaristo (L)")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Finland")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Sunny"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3202,23 +3606,23 @@
                   #f)))
            #s(stage
               "Ransbysäter (L)"
-              #hasheq((name . "Ransbysäter (L)")
-                      (stage . "Ransbysäter (L)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1960s.jpg"))))
+                      (name . "Ransbysäter (L)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Ransbysäter (L)")
                       (time-of-day . "Night")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3235,23 +3639,23 @@
                   #f)))
            #s(stage
               "Hamra (L)"
-              #hasheq((name . "Hamra (L)")
-                      (stage . "Hamra (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1960s.jpg"))))
+                      (name . "Hamra (L)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #f)
+                      (stage . "Hamra (L)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Overcast"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3272,19 +3676,19 @@
           #s(event "daily" #s(date 2016 10 16) "149179")
           (#s(stage
               "Col de Turini Départ (L)"
-              #hasheq((name . "Col de Turini Départ (L)")
-                      (stage . "Col de Turini Départ (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction . #hasheq((Vehicle . ("Fiat 131 Abarth"))))
+                      (name . "Col de Turini Départ (L)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #t)
+                      (stage . "Col de Turini Départ (L)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3305,23 +3709,23 @@
           #s(event "daily" #s(date 2016 10 14) "147899")
           (#s(stage
               "Pikes Peak - Full Course (L)"
-              #hasheq((name . "Pikes Peak - Full Course (L)")
-                      (stage . "Pikes Peak - Full Course (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle
                                 .
                                 ("Audi Sport quattro S1 Pikes Peak"))))
+                      (name . "Pikes Peak - Full Course (L)")
                       (retry . #f)
-                      (location . "USA")
                       (service . #t)
+                      (stage . "Pikes Peak - Full Course (L)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "USA")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Overcast"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3342,21 +3746,21 @@
           #s(event "daily" #s(date 2016 10 12) "147897")
           (#s(stage
               "Stor-jangen Sprint (S)"
-              #hasheq((name . "Stor-jangen Sprint (S)")
-                      (stage . "Stor-jangen Sprint (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Subaru Impreza 2001"))))
+                      (name . "Stor-jangen Sprint (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Stor-jangen Sprint (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Cloudy"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3377,23 +3781,23 @@
           #s(event "weekly" #s(date 2016 10 24) "150827")
           (#s(stage
               "Vallée descendante (L)"
-              #hasheq((name . "Vallée descendante (L)")
-                      (stage . "Vallée descendante (L)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (name . "Vallée descendante (L)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #t)
+                      (stage . "Vallée descendante (L)")
                       (time-of-day . "Night")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3410,23 +3814,23 @@
                   #f)))
            #s(stage
               "Route de Turini Montée (S)"
-              #hasheq((name . "Route de Turini Montée (S)")
-                      (stage . "Route de Turini Montée (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (name . "Route de Turini Montée (S)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #f)
+                      (stage . "Route de Turini Montée (S)")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Sunny"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3443,23 +3847,23 @@
                   #f)))
            #s(stage
               "Approche du Col de Turini - Montée (S)"
-              #hasheq((name . "Approche du Col de Turini - Montée (S)")
-                      (stage . "Approche du Col de Turini - Montée (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (name . "Approche du Col de Turini - Montée (S)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #t)
+                      (stage . "Approche du Col de Turini - Montée (S)")
                       (time-of-day . "Midday")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Sunny"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3476,23 +3880,23 @@
                   #f)))
            #s(stage
               "Col de Turini - Départ en descente (S)"
-              #hasheq((name . "Col de Turini - Départ en descente (S)")
-                      (stage . "Col de Turini - Départ en descente (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (name . "Col de Turini - Départ en descente (S)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #f)
+                      (stage . "Col de Turini - Départ en descente (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Cloudy"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3509,23 +3913,23 @@
                   #f)))
            #s(stage
               "Route de Turini Descente (S)"
-              #hasheq((name . "Route de Turini Descente (S)")
-                      (stage . "Route de Turini Descente (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (name . "Route de Turini Descente (S)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #t)
+                      (stage . "Route de Turini Descente (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3542,23 +3946,23 @@
                   #f)))
            #s(stage
               "Route de Turini (L)"
-              #hasheq((name . "Route de Turini (L)")
-                      (stage . "Route de Turini (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_grp_b_4wd.jpg"))))
+                      (name . "Route de Turini (L)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #f)
+                      (stage . "Route de Turini (L)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3579,23 +3983,23 @@
           #s(event "weekly2" #s(date 2016 10 24) "150835")
           (#s(stage
               "Älgsjön Sprint (S)"
-              #hasheq((name . "Älgsjön Sprint (S)")
-                      (stage . "Älgsjön Sprint (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1970s.jpg"))))
+                      (name . "Älgsjön Sprint (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Älgsjön Sprint (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3612,23 +4016,23 @@
                   #f)))
            #s(stage
               "Stor-jangen Sprint (S)"
-              #hasheq((name . "Stor-jangen Sprint (S)")
-                      (stage . "Stor-jangen Sprint (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1970s.jpg"))))
+                      (name . "Stor-jangen Sprint (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #f)
+                      (stage . "Stor-jangen Sprint (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3645,23 +4049,23 @@
                   #f)))
            #s(stage
               "Norraskoga (L)"
-              #hasheq((name . "Norraskoga (L)")
-                      (stage . "Norraskoga (L)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1970s.jpg"))))
+                      (name . "Norraskoga (L)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Norraskoga (L)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Snow"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3678,23 +4082,23 @@
                   #f)))
            #s(stage
               "Ransbysäter (L)"
-              #hasheq((name . "Ransbysäter (L)")
-                      (stage . "Ransbysäter (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1970s.jpg"))))
+                      (name . "Ransbysäter (L)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #f)
+                      (stage . "Ransbysäter (L)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Snow"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3711,23 +4115,23 @@
                   #f)))
            #s(stage
               "Skogsrallyt (S)"
-              #hasheq((name . "Skogsrallyt (S)")
-                      (stage . "Skogsrallyt (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1970s.jpg"))))
+                      (name . "Skogsrallyt (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Skogsrallyt (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3744,23 +4148,23 @@
                   #f)))
            #s(stage
               "Stor-jangen Sprint Reverse (S)"
-              #hasheq((name . "Stor-jangen Sprint Reverse (S)")
-                      (stage . "Stor-jangen Sprint Reverse (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1970s.jpg"))))
+                      (name . "Stor-jangen Sprint Reverse (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #f)
+                      (stage . "Stor-jangen Sprint Reverse (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Overcast"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3781,21 +4185,21 @@
           #s(event "daily" #s(date 2016 10 25) "150822")
           (#s(stage
               "Pikes Peak - Full Course (L)"
-              #hasheq((name . "Pikes Peak - Full Course (L)")
-                      (stage . "Pikes Peak - Full Course (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Peugeot 208 T16 Pikes Peak"))))
+                      (name . "Pikes Peak - Full Course (L)")
                       (retry . #f)
-                      (location . "USA")
                       (service . #t)
+                      (stage . "Pikes Peak - Full Course (L)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "USA")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Sunny"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3816,19 +4220,19 @@
           #s(event "daily2" #s(date 2016 10 22) "149193")
           (#s(stage
               "Bronfelen (L)"
-              #hasheq((name . "Bronfelen (L)")
-                      (stage . "Bronfelen (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction . #hasheq((Vehicle . ("MG Metro 6R4"))))
+                      (name . "Bronfelen (L)")
                       (retry . #f)
-                      (location . "Wales")
                       (service . #t)
+                      (stage . "Bronfelen (L)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Wales")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Overcast"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3849,21 +4253,21 @@
           #s(event "daily2" #s(date 2016 10 3) "145904")
           (#s(stage
               "Col de Turini -  Sprint en descente (S)"
-              #hasheq((name . "Col de Turini -  Sprint en descente (S)")
-                      (stage . "Col de Turini -  Sprint en descente (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Fiesta RS Rally"))))
+                      (name . "Col de Turini -  Sprint en descente (S)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #t)
+                      (stage . "Col de Turini -  Sprint en descente (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #t)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Snow"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3884,19 +4288,19 @@
           #s(event "daily" #s(date 2016 10 27) "150824")
           (#s(stage
               "Bidno Moorland Reverse (S)"
-              #hasheq((name . "Bidno Moorland Reverse (S)")
-                      (stage . "Bidno Moorland Reverse (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction . #hasheq((Vehicle . ("Opel Manta 400"))))
+                      (name . "Bidno Moorland Reverse (S)")
                       (retry . #f)
-                      (location . "Wales")
                       (service . #t)
+                      (stage . "Bidno Moorland Reverse (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Wales")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Rain"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3917,19 +4321,19 @@
           #s(event "daily2" #s(date 2016 10 8) "145909")
           (#s(stage
               "Ruschberg (L)"
-              #hasheq((name . "Ruschberg (L)")
-                      (stage . "Ruschberg (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction . #hasheq((Vehicle . ("Peugeot 306 Maxi"))))
+                      (name . "Ruschberg (L)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #t)
+                      (stage . "Ruschberg (L)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #t)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Rain"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3950,21 +4354,21 @@
           #s(event "daily2" #s(date 2016 10 18) "149189")
           (#s(stage
               "Björklangen (S)"
-              #hasheq((name . "Björklangen (S)")
-                      (stage . "Björklangen (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Subaru Impreza WRX STI 2011"))))
+                      (name . "Björklangen (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Björklangen (S)")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Sunny"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -3985,19 +4389,19 @@
           #s(event "daily2" #s(date 2016 10 7) "145908")
           (#s(stage
               "Dyffryn Afon (S)"
-              #hasheq((name . "Dyffryn Afon (S)")
-                      (stage . "Dyffryn Afon (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction . #hasheq((Vehicle . ("MG Metro 6R4"))))
+                      (name . "Dyffryn Afon (S)")
                       (retry . #f)
-                      (location . "Wales")
                       (service . #t)
+                      (stage . "Dyffryn Afon (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Wales")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Overcast"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -4018,19 +4422,19 @@
           #s(event "daily2" #s(date 2016 10 12) "147905")
           (#s(stage
               "Flugzeugring Reverse (S)"
-              #hasheq((name . "Flugzeugring Reverse (S)")
-                      (stage . "Flugzeugring Reverse (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction . #hasheq((Vehicle . ("Lancia 037 Evo 2"))))
+                      (name . "Flugzeugring Reverse (S)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #t)
+                      (stage . "Flugzeugring Reverse (S)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Rain"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -4051,21 +4455,21 @@
           #s(event "daily2" #s(date 2016 10 31) "152673")
           (#s(stage
               "Col de Turini -  Sprint en descente (S)"
-              #hasheq((name . "Col de Turini -  Sprint en descente (S)")
-                      (stage . "Col de Turini -  Sprint en descente (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Sierra Cosworth RS500"))))
+                      (name . "Col de Turini -  Sprint en descente (S)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #t)
+                      (stage . "Col de Turini -  Sprint en descente (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -4086,23 +4490,23 @@
           #s(event "weekly" #s(date 2016 10 17) "149186")
           (#s(stage
               "Ransbysäter (L)"
-              #hasheq((name . "Ransbysäter (L)")
-                      (stage . "Ransbysäter (L)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1980s_rwd.jpg"))))
+                      (name . "Ransbysäter (L)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Ransbysäter (L)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Snow"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -4119,23 +4523,23 @@
                   #f)))
            #s(stage
               "Skogsrallyt (S)"
-              #hasheq((name . "Skogsrallyt (S)")
-                      (stage . "Skogsrallyt (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1980s_rwd.jpg"))))
+                      (name . "Skogsrallyt (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #f)
+                      (stage . "Skogsrallyt (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -4152,23 +4556,23 @@
                   #f)))
            #s(stage
               "Stor-jangen Sprint Reverse (S)"
-              #hasheq((name . "Stor-jangen Sprint Reverse (S)")
-                      (stage . "Stor-jangen Sprint Reverse (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1980s_rwd.jpg"))))
+                      (name . "Stor-jangen Sprint Reverse (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Stor-jangen Sprint Reverse (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -4185,23 +4589,23 @@
                   #f)))
            #s(stage
               "Älgsjön Sprint (S)"
-              #hasheq((name . "Älgsjön Sprint (S)")
-                      (stage . "Älgsjön Sprint (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1980s_rwd.jpg"))))
+                      (name . "Älgsjön Sprint (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #f)
+                      (stage . "Älgsjön Sprint (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -4218,23 +4622,23 @@
                   #f)))
            #s(stage
               "Stor-jangen Sprint (S)"
-              #hasheq((name . "Stor-jangen Sprint (S)")
-                      (stage . "Stor-jangen Sprint (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1980s_rwd.jpg"))))
+                      (name . "Stor-jangen Sprint (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Stor-jangen Sprint (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Overcast"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -4251,23 +4655,23 @@
                   #f)))
            #s(stage
               "Norraskoga (L)"
-              #hasheq((name . "Norraskoga (L)")
-                      (stage . "Norraskoga (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_1980s_rwd.jpg"))))
+                      (name . "Norraskoga (L)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #f)
+                      (stage . "Norraskoga (L)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Snow"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -4288,19 +4692,19 @@
           #s(event "daily" #s(date 2016 10 28) "150825")
           (#s(stage
               "Col de Turini -  Sprint en descente (S)"
-              #hasheq((name . "Col de Turini -  Sprint en descente (S)")
-                      (stage . "Col de Turini -  Sprint en descente (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction . #hasheq((Vehicle . ("Hyundai Rally"))))
+                      (name . "Col de Turini -  Sprint en descente (S)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #t)
+                      (stage . "Col de Turini -  Sprint en descente (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Snow"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -4321,21 +4725,21 @@
           #s(event "daily" #s(date 2016 10 11) "147896")
           (#s(stage
               "Verbundsring (S)"
-              #hasheq((name . "Verbundsring (S)")
-                      (stage . "Verbundsring (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Mitsubishi Lancer Evolution X"))))
+                      (name . "Verbundsring (S)")
                       (retry . #f)
-                      (location . "Germany")
                       (service . #t)
+                      (stage . "Verbundsring (S)")
                       (time-of-day . "Morning")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Germany")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Rain"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -4356,21 +4760,21 @@
           #s(event "daily" #s(date 2016 10 3) "145896")
           (#s(stage
               "Elgsjön (S)"
-              #hasheq((name . "Elgsjön (S)")
-                      (stage . "Elgsjön (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #f)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((Vehicle . ("Ford Focus RS WRC 2007"))))
+                      (name . "Elgsjön (S)")
                       (retry . #f)
-                      (location . "Sweden")
                       (service . #t)
+                      (stage . "Elgsjön (S)")
                       (time-of-day . "Midday")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Sweden")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #f)
                       (weather . "Sunny"))
               (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
                #s(race-result
@@ -4391,23 +4795,23 @@
           #s(event "weekly2" #s(date 2016 10 10) "147909")
           (#s(stage
               "Col de Turini - Départ en descente (S)"
-              #hasheq((name . "Col de Turini - Départ en descente (S)")
-                      (stage . "Col de Turini - Départ en descente (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (name . "Col de Turini - Départ en descente (S)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #t)
+                      (stage . "Col de Turini - Départ en descente (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
@@ -4427,23 +4831,23 @@
                   #f)))
            #s(stage
               "Route de Turini Descente (S)"
-              #hasheq((name . "Route de Turini Descente (S)")
-                      (stage . "Route de Turini Descente (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (name . "Route de Turini Descente (S)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #f)
+                      (stage . "Route de Turini Descente (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
@@ -4463,23 +4867,23 @@
                   #f)))
            #s(stage
               "Route de Turini (L)"
-              #hasheq((name . "Route de Turini (L)")
-                      (stage . "Route de Turini (L)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (name . "Route de Turini (L)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #t)
+                      (stage . "Route de Turini (L)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Snow"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
@@ -4499,23 +4903,23 @@
                   #f)))
            #s(stage
               "Vallée descendante (L)"
-              #hasheq((name . "Vallée descendante (L)")
-                      (stage . "Vallée descendante (L)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (name . "Vallée descendante (L)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #f)
+                      (stage . "Vallée descendante (L)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Snow"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
@@ -4535,23 +4939,23 @@
                   #f)))
            #s(stage
               "Route de Turini Montée (S)"
-              #hasheq((name . "Route de Turini Montée (S)")
-                      (stage . "Route de Turini Montée (S)")
-                      (checkpoint . #t)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (name . "Route de Turini Montée (S)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #t)
+                      (stage . "Route de Turini Montée (S)")
                       (time-of-day . "Afternoon")
+                      (checkpoint . #t)
                       (tuning . #t)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Snow"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
@@ -4571,23 +4975,23 @@
                   #f)))
            #s(stage
               "Approche du Col de Turini - Montée (S)"
-              #hasheq((name . "Approche du Col de Turini - Montée (S)")
-                      (stage . "Approche du Col de Turini - Montée (S)")
-                      (checkpoint . #f)
-                      (engineers . #t)
-                      (only-owned-vehicles . #t)
-                      (restart . #f)
+              #hasheq((restart . #f)
                       (restriction
                        .
                        #hasheq((VehicleClass
                                 .
                                 ("/Content/images/vehicle/class/rally_wrc_2010s.jpg"))))
+                      (name . "Approche du Col de Turini - Montée (S)")
                       (retry . #f)
-                      (location . "Monaco")
                       (service . #f)
+                      (stage . "Approche du Col de Turini - Montée (S)")
                       (time-of-day . "Night")
+                      (checkpoint . #f)
                       (tuning . #f)
+                      (location . "Monaco")
+                      (engineers . #t)
                       (wager . #f)
+                      (only-owned-vehicles . #t)
                       (weather . "Mist"))
               (#s(race-result
                   #s(player "steam" "Guggesokk" 14380)
