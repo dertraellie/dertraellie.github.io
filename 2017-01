@@ -1,0 +1,70 @@
+#hash((#s(event "daily" #s(date 2017 1 1) "167726")
+       .
+       #s(event/results
+          #s(event "daily" #s(date 2017 1 1) "167726")
+          (#s(stage
+              "Pikes Peak - Full Course (L)"
+              #hasheq((wager . #f)
+                      (location . "USA")
+                      (only-owned-vehicles . #f)
+                      (retry . #f)
+                      (tuning . #f)
+                      (stage . "Pikes Peak - Full Course (L)")
+                      (time-of-day . "Afternoon")
+                      (checkpoint . #f)
+                      (name . "Pikes Peak - Full Course (L)")
+                      (restriction
+                       .
+                       #hasheq((Vehicle
+                                .
+                                ("Audi Sport quattro S1 Pikes Peak"))))
+                      (engineers . #t)
+                      (service . #t)
+                      (restart . #f)
+                      (weather . "Overcast"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  #f
+                  #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Audi Sport quattro S1 Pikes Peak"
+                  #s(racetime 0 9 33 560))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f))))))
+      (#s(event "daily2" #s(date 2017 1 1) "167734")
+       .
+       #s(event/results
+          #s(event "daily2" #s(date 2017 1 1) "167734")
+          (#s(stage
+              "Anodou Farmakas (L)"
+              #hasheq((wager . #f)
+                      (location . "Greece")
+                      (only-owned-vehicles . #t)
+                      (retry . #f)
+                      (tuning . #t)
+                      (stage . "Anodou Farmakas (L)")
+                      (time-of-day . "Night")
+                      (checkpoint . #f)
+                      (name . "Anodou Farmakas (L)")
+                      (restriction . #hasheq((Vehicle . ("Fiat 131 Abarth"))))
+                      (engineers . #t)
+                      (service . #t)
+                      (restart . #f)
+                      (weather . "Clear"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  #f
+                  #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Fiat 131 Abarth"
+                  #s(racetime 0 7 13 865))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f)))))))
