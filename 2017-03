@@ -1,0 +1,138 @@
+#hash((#s(event "daily2" #s(date 2017 3 2) "188000")
+       .
+       #s(event/results
+          #s(event "daily2" #s(date 2017 3 2) "188000")
+          (#s(stage
+              "Gordolon - Courte montée (S)"
+              #hasheq((wager . #f)
+                      (location . "Monaco")
+                      (only-owned-vehicles . #f)
+                      (retry . #f)
+                      (tuning . #f)
+                      (stage . "Gordolon - Courte montée (S)")
+                      (time-of-day . "Midday")
+                      (checkpoint . #f)
+                      (name . "Gordolon - Courte montée (S)")
+                      (restriction . #hasheq((Vehicle . ("Fiat 131 Abarth"))))
+                      (engineers . #t)
+                      (service . #t)
+                      (restart . #f)
+                      (weather . "Sunny"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Fiat 131 Abarth"
+                  #s(racetime 0 3 49 407))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Fiat 131 Abarth"
+                  #s(racetime 0 3 35 491))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f))))))
+      (#s(event "daily" #s(date 2017 3 1) "187991")
+       .
+       #s(event/results
+          #s(event "daily" #s(date 2017 3 1) "187991")
+          (#s(stage
+              "Jyrkysjärvi (S)"
+              #hasheq((wager . #f)
+                      (location . "Finland")
+                      (only-owned-vehicles . #f)
+                      (retry . #f)
+                      (tuning . #f)
+                      (stage . "Jyrkysjärvi (S)")
+                      (time-of-day . "Afternoon")
+                      (checkpoint . #f)
+                      (name . "Jyrkysjärvi (S)")
+                      (restriction . #hasheq((Vehicle . ("Lancia 037 Evo 2"))))
+                      (engineers . #t)
+                      (service . #t)
+                      (restart . #f)
+                      (weather . "Clear"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Lancia 037 Evo 2"
+                  #s(racetime 0 15 0 0))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f))))))
+      (#s(event "daily" #s(date 2017 3 2) "187992")
+       .
+       #s(event/results
+          #s(event "daily" #s(date 2017 3 2) "187992")
+          (#s(stage
+              "Pikes Peak (Gravel) - Full Course (L)"
+              #hasheq((wager . #f)
+                      (location . "USA")
+                      (only-owned-vehicles . #f)
+                      (retry . #f)
+                      (tuning . #f)
+                      (stage . "Pikes Peak (Gravel) - Full Course (L)")
+                      (time-of-day . "Sunset")
+                      (checkpoint . #f)
+                      (name . "Pikes Peak (Gravel) - Full Course (L)")
+                      (restriction
+                       .
+                       #hasheq((Vehicle
+                                .
+                                ("Audi Sport quattro S1 Pikes Peak"))))
+                      (engineers . #t)
+                      (service . #t)
+                      (restart . #f)
+                      (weather . "Clear"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "Audi Sport quattro S1 Pikes Peak"
+                  #s(racetime 0 9 41 243))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  "Audi Sport quattro S1 Pikes Peak"
+                  #s(racetime 0 9 17 294))
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f))))))
+      (#s(event "daily2" #s(date 2017 3 1) "187999")
+       .
+       #s(event/results
+          #s(event "daily2" #s(date 2017 3 1) "187999")
+          (#s(stage
+              "Jyrkysjärvi (S)"
+              #hasheq((wager . #f)
+                      (location . "Finland")
+                      (only-owned-vehicles . #t)
+                      (retry . #f)
+                      (tuning . #t)
+                      (stage . "Jyrkysjärvi (S)")
+                      (time-of-day . "Afternoon")
+                      (checkpoint . #f)
+                      (name . "Jyrkysjärvi (S)")
+                      (restriction
+                       .
+                       #hasheq((Vehicle . ("MINI Countryman Rally Edition"))))
+                      (engineers . #t)
+                      (service . #t)
+                      (restart . #f)
+                      (weather . "Clear"))
+              (#s(race-result #s(player "steam" "Guggesokk" 14380) #f #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Gnorrf" 547927)
+                  "MINI Countryman Rally Edition"
+                  #s(racetime 0 3 34 691))
+               #s(race-result
+                  #s(player "playstationnetwork" "frodegill" 283125)
+                  #f
+                  #f)
+               #s(race-result
+                  #s(player "playstationnetwork" "Eitrir" 518640)
+                  #f
+                  #f)))))))
